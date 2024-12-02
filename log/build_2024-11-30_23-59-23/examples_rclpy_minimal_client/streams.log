@@ -1,0 +1,40 @@
+[7.779s] Invoking command in '/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_client': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_client/build --no-deps symlink_data
+[8.779s] running develop
+[8.780s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[8.780s] !!
+[8.781s] 
+[8.781s]         ********************************************************************************
+[8.781s]         Please avoid running ``setup.py`` and ``easy_install``.
+[8.781s]         Instead, use pypa/build, pypa/installer or other
+[8.781s]         standards-based tools.
+[8.781s] 
+[8.781s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[8.781s]         ********************************************************************************
+[8.781s] 
+[8.781s] !!
+[8.782s]   easy_install.initialize_options(self)
+[9.454s] running egg_info
+[9.454s] creating examples_rclpy_minimal_client.egg-info
+[9.511s] writing examples_rclpy_minimal_client.egg-info/PKG-INFO
+[9.512s] writing dependency_links to examples_rclpy_minimal_client.egg-info/dependency_links.txt
+[9.512s] writing entry points to examples_rclpy_minimal_client.egg-info/entry_points.txt
+[9.513s] writing requirements to examples_rclpy_minimal_client.egg-info/requires.txt
+[9.513s] writing top-level names to examples_rclpy_minimal_client.egg-info/top_level.txt
+[9.514s] writing manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[9.670s] reading manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[9.670s] writing manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[9.733s] running build_ext
+[9.733s] Creating /home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages/examples-rclpy-minimal-client.egg-link (link to .)
+[9.739s] Installing client script to /home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[9.739s] Installing client_async script to /home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[9.739s] Installing client_async_callback script to /home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[9.742s] Installing client_async_member_function script to /home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[9.742s] 
+[9.742s] Installed /home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_client
+[9.742s] running symlink_data
+[9.742s] creating /home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client/share/ament_index
+[9.742s] creating /home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index
+[9.742s] creating /home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[9.743s] symbolically linking /home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_client/resource/examples_rclpy_minimal_client -> /home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client/share/ament_index/resource_index/packages
+[9.744s] symbolically linking /home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_client/package.xml -> /home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client/share/examples_rclpy_minimal_client
+[9.921s] Invoked command in '/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_client' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_client/build --no-deps symlink_data

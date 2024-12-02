@@ -1,0 +1,87 @@
+[0.036s] Invoking command in '/home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tomasz/Desktop/sese_ws/src/examples/rclcpp/topics/minimal_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher
+[1.470s] -- The C compiler identification is GNU 13.2.0
+[1.470s] -- The CXX compiler identification is GNU 13.2.0
+[1.470s] -- Detecting C compiler ABI info
+[1.470s] -- Detecting C compiler ABI info - done
+[1.471s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.471s] -- Detecting C compile features
+[1.471s] -- Detecting C compile features - done
+[1.471s] -- Detecting CXX compiler ABI info
+[1.471s] -- Detecting CXX compiler ABI info - done
+[1.471s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.471s] -- Detecting CXX compile features
+[1.472s] -- Detecting CXX compile features - done
+[1.472s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.472s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.472s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.472s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.472s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.472s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.483s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.485s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.625s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.633s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.780s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.815s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.856s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.004s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.044s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.251s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.252s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.253s] -- Configured cppcheck include dirs: 
+[2.253s] -- Configured cppcheck exclude dirs and/or files: 
+[2.254s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.254s] -- Configured cpplint exclude dirs and/or files: 
+[2.255s] -- Added test 'lint_cmake' to check CMake code style
+[2.257s] -- Added test 'uncrustify' to check C / C++ code style
+[2.257s] -- Configured uncrustify additional arguments: 
+[2.258s] -- Added test 'xmllint' to check XML markup files
+[2.261s] -- Configuring done (2.2s)
+[2.331s] -- Generating done (0.0s)
+[2.335s] -- Build files have been written to: /home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_publisher
+[2.346s] Invoked command in '/home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tomasz/Desktop/sese_ws/src/examples/rclcpp/topics/minimal_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher
+[2.346s] Invoking command in '/home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_publisher -- -j16 -l16
+[2.441s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[2.441s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[2.445s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[2.449s] [ 41%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[2.450s] [ 41%] [32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o[0m
+[2.466s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[50.051s] [ 58%] [32m[1mLinking CXX executable publisher_member_function_with_unique_network_flow_endpoints[0m
+[51.148s] [ 58%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[52.136s] [ 66%] [32m[1mLinking CXX executable publisher_member_function_with_type_adapter[0m
+[52.374s] [ 75%] [32m[1mLinking CXX executable publisher_wait_for_all_acked[0m
+[53.037s] [ 75%] Built target publisher_wait_for_all_acked
+[53.093s] [ 75%] Built target publisher_member_function_with_type_adapter
+[54.420s] [ 83%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[55.204s] [ 83%] Built target publisher_not_composable
+[56.024s] [ 91%] [32m[1mLinking CXX executable publisher_member_function[0m
+[56.805s] [ 91%] Built target publisher_member_function
+[57.567s] [100%] [32m[1mLinking CXX executable publisher_lambda[0m
+[59.055s] [100%] Built target publisher_lambda
+[59.149s] Invoked command in '/home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_publisher -- -j16 -l16
+[59.289s] Invoking command in '/home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_publisher
+[59.330s] -- Install configuration: ""
+[59.334s] -- Execute custom install script
+[59.334s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[59.377s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[59.424s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[59.465s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[59.512s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[59.557s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[59.615s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[59.669s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[59.719s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[59.745s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[59.779s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[59.809s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[59.832s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[59.861s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[59.890s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[59.916s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[59.942s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[59.980s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[60.029s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[60.075s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[60.133s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[60.196s] Invoked command in '/home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_publisher

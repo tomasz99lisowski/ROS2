@@ -1,0 +1,35 @@
+[4.359s] Invoking command in '/home/tomasz/Desktop/sese_ws/build/launch_testing_examples': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tomasz/Desktop/sese_ws/build/launch_testing_examples/build --no-deps symlink_data
+[5.081s] running develop
+[5.081s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[5.081s] !!
+[5.081s] 
+[5.081s]         ********************************************************************************
+[5.082s]         Please avoid running ``setup.py`` and ``easy_install``.
+[5.082s]         Instead, use pypa/build, pypa/installer or other
+[5.082s]         standards-based tools.
+[5.082s] 
+[5.082s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[5.082s]         ********************************************************************************
+[5.082s] 
+[5.082s] !!
+[5.082s]   easy_install.initialize_options(self)
+[5.519s] running egg_info
+[5.519s] creating launch_testing_examples.egg-info
+[5.558s] writing launch_testing_examples.egg-info/PKG-INFO
+[5.563s] writing dependency_links to launch_testing_examples.egg-info/dependency_links.txt
+[5.563s] writing requirements to launch_testing_examples.egg-info/requires.txt
+[5.563s] writing top-level names to launch_testing_examples.egg-info/top_level.txt
+[5.563s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[5.654s] reading manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[5.656s] writing manifest file 'launch_testing_examples.egg-info/SOURCES.txt'
+[5.704s] running build_ext
+[5.705s] Creating /home/tomasz/Desktop/sese_ws/install/launch_testing_examples/lib/python3.12/site-packages/launch-testing-examples.egg-link (link to .)
+[5.705s] 
+[5.706s] Installed /home/tomasz/Desktop/sese_ws/build/launch_testing_examples
+[5.706s] running symlink_data
+[5.706s] creating /home/tomasz/Desktop/sese_ws/install/launch_testing_examples/share/ament_index
+[5.709s] creating /home/tomasz/Desktop/sese_ws/install/launch_testing_examples/share/ament_index/resource_index
+[5.711s] creating /home/tomasz/Desktop/sese_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[5.715s] symbolically linking /home/tomasz/Desktop/sese_ws/build/launch_testing_examples/resource/launch_testing_examples -> /home/tomasz/Desktop/sese_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[5.715s] symbolically linking /home/tomasz/Desktop/sese_ws/build/launch_testing_examples/package.xml -> /home/tomasz/Desktop/sese_ws/install/launch_testing_examples/share/launch_testing_examples
+[5.857s] Invoked command in '/home/tomasz/Desktop/sese_ws/build/launch_testing_examples' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tomasz/Desktop/sese_ws/build/launch_testing_examples/build --no-deps symlink_data

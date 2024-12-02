@@ -1,0 +1,111 @@
+[0.035s] Invoking command in '/home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tomasz/Desktop/sese_ws/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber
+[1.473s] -- The C compiler identification is GNU 13.2.0
+[1.473s] -- The CXX compiler identification is GNU 13.2.0
+[1.473s] -- Detecting C compiler ABI info
+[1.473s] -- Detecting C compiler ABI info - done
+[1.473s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.474s] -- Detecting C compile features
+[1.474s] -- Detecting C compile features - done
+[1.474s] -- Detecting CXX compiler ABI info
+[1.474s] -- Detecting CXX compiler ABI info - done
+[1.474s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.474s] -- Detecting CXX compile features
+[1.474s] -- Detecting CXX compile features - done
+[1.475s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.475s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.475s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.475s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.475s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.475s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.478s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.480s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.632s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.637s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.775s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.811s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.856s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.998s] -- Found rclcpp_components: 28.1.5 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[2.079s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.122s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.309s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.317s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.320s] -- Configured cppcheck include dirs: 
+[2.321s] -- Configured cppcheck exclude dirs and/or files: 
+[2.328s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.329s] -- Configured cpplint exclude dirs and/or files: 
+[2.330s] -- Added test 'lint_cmake' to check CMake code style
+[2.330s] -- Added test 'uncrustify' to check C / C++ code style
+[2.331s] -- Configured uncrustify additional arguments: 
+[2.331s] -- Added test 'xmllint' to check XML markup files
+[2.331s] -- Configuring done (2.2s)
+[2.383s] -- Generating done (0.1s)
+[2.390s] -- Build files have been written to: /home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_subscriber
+[2.436s] Invoked command in '/home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tomasz/Desktop/sese_ws/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber
+[2.436s] Invoking command in '/home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_subscriber -- -j16 -l16
+[36.160s] [  4%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[37.099s] [  8%] [32mBuilding CXX object CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o[0m
+[37.389s] [ 12%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[37.448s] [ 16%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[37.814s] [ 20%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[39.132s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[39.391s] [ 29%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o[0m
+[39.695s] [ 33%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/wait_set_subscriber.cpp.o[0m
+[39.812s] [ 37%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/static_wait_set_subscriber.cpp.o[0m
+[40.047s] [ 41%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber.dir/rclcpp_components/node_main_wait_set_subscriber.cpp.o[0m
+[40.162s] [ 45%] [32mBuilding CXX object CMakeFiles/static_wait_set_subscriber.dir/rclcpp_components/node_main_static_wait_set_subscriber.cpp.o[0m
+[40.210s] [ 50%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/time_triggered_wait_set_subscriber.cpp.o[0m
+[40.252s] [ 54%] [32mBuilding CXX object CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o[0m
+[40.252s] [ 58%] [32m[1mLinking CXX executable wait_set_subscriber[0m
+[40.252s] [ 58%] Built target wait_set_subscriber
+[41.303s] [ 62%] [32m[1mLinking CXX executable subscriber_member_function_with_type_adapter[0m
+[42.025s] [ 66%] [32m[1mLinking CXX executable static_wait_set_subscriber[0m
+[42.357s] [ 66%] Built target subscriber_member_function_with_type_adapter
+[42.399s] [ 66%] Built target static_wait_set_subscriber
+[42.416s] [ 70%] [32m[1mLinking CXX executable subscriber_member_function_with_topic_statistics[0m
+[43.401s] [ 70%] Built target subscriber_member_function_with_topic_statistics
+[51.135s] [ 75%] [32m[1mLinking CXX executable time_triggered_wait_set_subscriber[0m
+[51.262s] [ 75%] Built target time_triggered_wait_set_subscriber
+[65.343s] [ 79%] [32m[1mLinking CXX executable subscriber_content_filtering[0m
+[65.569s] [ 83%] [32m[1mLinking CXX executable subscriber_lambda[0m
+[65.986s] [ 83%] Built target subscriber_content_filtering
+[66.245s] [ 83%] Built target subscriber_lambda
+[66.371s] [ 87%] [32m[1mLinking CXX executable subscriber_member_function_with_unique_network_flow_endpoints[0m
+[66.723s] [ 91%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[67.077s] [ 91%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[67.298s] [ 91%] Built target subscriber_not_composable
+[67.814s] [ 95%] [32m[1mLinking CXX executable subscriber_member_function[0m
+[68.199s] [ 95%] Built target subscriber_member_function
+[68.694s] [100%] [32m[1mLinking CXX shared library libwait_set_subscriber_library.so[0m
+[69.092s] [100%] Built target wait_set_subscriber_library
+[69.119s] Invoked command in '/home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_subscriber -- -j16 -l16
+[69.168s] Invoking command in '/home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_subscriber
+[69.175s] -- Install configuration: ""
+[69.176s] -- Execute custom install script
+[69.176s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber
+[69.186s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber
+[69.195s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber
+[69.204s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so
+[69.214s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[69.224s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[69.233s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+[69.241s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter
+[69.249s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints
+[69.258s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[69.266s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering
+[69.276s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[69.285s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[69.294s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[69.303s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[69.313s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[69.321s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[69.329s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[69.338s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[69.346s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[69.354s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[69.362s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[69.370s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[69.379s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_minimal_subscriber
+[69.387s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[69.396s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[69.405s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[69.416s] Invoked command in '/home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_subscriber

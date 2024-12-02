@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: my-package
+Version: 0.0.0
+Summary: Tutorial package
+Maintainer: tomasz
+Maintainer-email: tomasz.lisowski99@gmail.com
+License: Apache-2.0
+License-File: LICENSE

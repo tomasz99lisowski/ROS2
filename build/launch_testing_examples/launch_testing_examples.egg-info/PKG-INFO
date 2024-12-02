@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: launch-testing-examples
+Version: 0.19.4
+Summary: Examples of simple launch tests
+Maintainer: Aditya Pande, Alejandro Hernandez Cordero
+Maintainer-email: aditya.pande@openrobotics.org, alejandro@openrobotics.org
+License: Apache License 2.0

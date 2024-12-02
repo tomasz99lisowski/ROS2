@@ -1,0 +1,1 @@
+/home/tomasz/Desktop/sese_ws/src/examples/rclpy/guard_conditions/setup.py

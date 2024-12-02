@@ -1,0 +1,37 @@
+[4.541s] Invoking command in '/home/tomasz/Desktop/sese_ws/build/examples_rclpy_pointcloud_publisher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/examples_rclpy_pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tomasz/Desktop/sese_ws/build/examples_rclpy_pointcloud_publisher/build --no-deps symlink_data
+[5.349s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[5.349s] !!
+[5.349s] 
+[5.350s]         ********************************************************************************
+[5.350s]         Please avoid running ``setup.py`` and ``easy_install``.
+[5.350s]         Instead, use pypa/build, pypa/installer or other
+[5.350s]         standards-based tools.
+[5.350s] 
+[5.350s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[5.350s]         ********************************************************************************
+[5.351s] 
+[5.351s] !!
+[5.351s]   easy_install.initialize_options(self)
+[5.357s] running develop
+[5.728s] running egg_info
+[5.728s] creating examples_rclpy_pointcloud_publisher.egg-info
+[5.770s] writing examples_rclpy_pointcloud_publisher.egg-info/PKG-INFO
+[5.774s] writing dependency_links to examples_rclpy_pointcloud_publisher.egg-info/dependency_links.txt
+[5.774s] writing entry points to examples_rclpy_pointcloud_publisher.egg-info/entry_points.txt
+[5.774s] writing requirements to examples_rclpy_pointcloud_publisher.egg-info/requires.txt
+[5.774s] writing top-level names to examples_rclpy_pointcloud_publisher.egg-info/top_level.txt
+[5.775s] writing manifest file 'examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[5.847s] reading manifest file 'examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[5.849s] writing manifest file 'examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[5.886s] running build_ext
+[5.886s] Creating /home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages/examples-rclpy-pointcloud-publisher.egg-link (link to .)
+[5.887s] Installing pointcloud_publisher script to /home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher/lib/examples_rclpy_pointcloud_publisher
+[5.891s] 
+[5.891s] Installed /home/tomasz/Desktop/sese_ws/build/examples_rclpy_pointcloud_publisher
+[5.891s] running symlink_data
+[5.891s] creating /home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index
+[5.892s] creating /home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index
+[5.892s] creating /home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index/packages
+[5.892s] symbolically linking /home/tomasz/Desktop/sese_ws/build/examples_rclpy_pointcloud_publisher/resource/examples_rclpy_pointcloud_publisher -> /home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher/share/ament_index/resource_index/packages
+[5.892s] symbolically linking /home/tomasz/Desktop/sese_ws/build/examples_rclpy_pointcloud_publisher/package.xml -> /home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher/share/examples_rclpy_pointcloud_publisher
+[6.066s] Invoked command in '/home/tomasz/Desktop/sese_ws/build/examples_rclpy_pointcloud_publisher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/examples_rclpy_pointcloud_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tomasz/Desktop/sese_ws/build/examples_rclpy_pointcloud_publisher/build --no-deps symlink_data

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: py-pubsub
+Version: 0.0.0
+Summary: Examples of minimal publisher/subscriber using rclpy
+Maintainer: Tomasz
+Maintainer-email: tomasz.lisowski99@gmail.com
+License: Apache-2.0
+License-File: LICENSE

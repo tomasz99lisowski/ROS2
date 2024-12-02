@@ -1,0 +1,70 @@
+[0.035s] Invoking command in '/home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tomasz/Desktop/sese_ws/src/examples/rclcpp/timers/minimal_timer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_timer
+[1.473s] -- The C compiler identification is GNU 13.2.0
+[1.474s] -- The CXX compiler identification is GNU 13.2.0
+[1.474s] -- Detecting C compiler ABI info
+[1.474s] -- Detecting C compiler ABI info - done
+[1.474s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.474s] -- Detecting C compile features
+[1.474s] -- Detecting C compile features - done
+[1.474s] -- Detecting CXX compiler ABI info
+[1.474s] -- Detecting CXX compiler ABI info - done
+[1.475s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.475s] -- Detecting CXX compile features
+[1.475s] -- Detecting CXX compile features - done
+[1.475s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.475s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.475s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.475s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.476s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.476s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.477s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.478s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.618s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.627s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.773s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.810s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.852s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.001s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.238s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.239s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.240s] -- Configured cppcheck include dirs: 
+[2.240s] -- Configured cppcheck exclude dirs and/or files: 
+[2.241s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.241s] -- Configured cpplint exclude dirs and/or files: 
+[2.242s] -- Added test 'lint_cmake' to check CMake code style
+[2.243s] -- Added test 'uncrustify' to check C / C++ code style
+[2.243s] -- Configured uncrustify additional arguments: 
+[2.244s] -- Added test 'xmllint' to check XML markup files
+[2.247s] -- Configuring done (2.2s)
+[2.271s] -- Generating done (0.0s)
+[2.275s] -- Build files have been written to: /home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_timer
+[2.306s] Invoked command in '/home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tomasz/Desktop/sese_ws/src/examples/rclcpp/timers/minimal_timer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_timer
+[2.311s] Invoking command in '/home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_timer -- -j16 -l16
+[2.378s] [ 25%] [32mBuilding CXX object CMakeFiles/timer_lambda.dir/lambda.cpp.o[0m
+[2.380s] [ 50%] [32mBuilding CXX object CMakeFiles/timer_member_function.dir/member_function.cpp.o[0m
+[27.563s] [ 75%] [32m[1mLinking CXX executable timer_member_function[0m
+[28.682s] [ 75%] Built target timer_member_function
+[48.335s] [100%] [32m[1mLinking CXX executable timer_lambda[0m
+[49.356s] [100%] Built target timer_lambda
+[49.613s] Invoked command in '/home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_timer -- -j16 -l16
+[51.422s] Invoking command in '/home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_timer
+[51.514s] -- Install configuration: ""
+[51.514s] -- Execute custom install script
+[51.515s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[51.548s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[51.594s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[51.637s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[51.703s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[51.751s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[51.811s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[51.879s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[51.955s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[52.035s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[52.096s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[52.141s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[52.202s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+[52.265s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[52.327s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[52.399s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[52.461s] -- Symlinking: /home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[55.718s] Invoked command in '/home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomasz/Desktop/sese_ws/build/examples_rclcpp_minimal_timer
