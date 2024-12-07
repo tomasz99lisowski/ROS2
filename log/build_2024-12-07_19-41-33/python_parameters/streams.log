@@ -1,0 +1,38 @@
+[2.816s] Invoking command in '/home/tomasz/Desktop/sese_ws/src/python_parameters': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/tomasz/Desktop/sese_ws/build/python_parameters/build install --record /home/tomasz/Desktop/sese_ws/build/python_parameters/install.log --single-version-externally-managed install_data
+[3.537s] running egg_info
+[3.538s] creating ../../build/python_parameters/python_parameters.egg-info
+[3.590s] writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[3.591s] writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[3.591s] writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[3.591s] writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+[3.592s] writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+[3.592s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[3.699s] reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[3.699s] adding license file 'LICENSE'
+[3.700s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[3.701s] running build
+[3.701s] running build_py
+[3.701s] creating /home/tomasz/Desktop/sese_ws/build/python_parameters/build
+[3.701s] creating /home/tomasz/Desktop/sese_ws/build/python_parameters/build/lib
+[3.701s] creating /home/tomasz/Desktop/sese_ws/build/python_parameters/build/lib/python_parameters
+[3.702s] copying python_parameters/__init__.py -> /home/tomasz/Desktop/sese_ws/build/python_parameters/build/lib/python_parameters
+[3.702s] copying python_parameters/python_parameters_node.py -> /home/tomasz/Desktop/sese_ws/build/python_parameters/build/lib/python_parameters
+[3.702s] running install
+[3.717s] running install_lib
+[3.771s] creating /home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters
+[3.772s] copying /home/tomasz/Desktop/sese_ws/build/python_parameters/build/lib/python_parameters/__init__.py -> /home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters
+[3.772s] copying /home/tomasz/Desktop/sese_ws/build/python_parameters/build/lib/python_parameters/python_parameters_node.py -> /home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters
+[3.773s] byte-compiling /home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters/__init__.py to __init__.cpython-312.pyc
+[3.774s] byte-compiling /home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters/python_parameters_node.py to python_parameters_node.cpython-312.pyc
+[3.775s] running install_data
+[3.776s] creating /home/tomasz/Desktop/sese_ws/install/python_parameters/share/ament_index
+[3.776s] creating /home/tomasz/Desktop/sese_ws/install/python_parameters/share/ament_index/resource_index
+[3.776s] creating /home/tomasz/Desktop/sese_ws/install/python_parameters/share/ament_index/resource_index/packages
+[3.776s] copying resource/python_parameters -> /home/tomasz/Desktop/sese_ws/install/python_parameters/share/ament_index/resource_index/packages
+[3.777s] copying package.xml -> /home/tomasz/Desktop/sese_ws/install/python_parameters/share/python_parameters
+[3.777s] running install_egg_info
+[3.834s] Copying ../../build/python_parameters/python_parameters.egg-info to /home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters-0.0.0-py3.12.egg-info
+[3.837s] running install_scripts
+[4.200s] Installing minimal_param_node script to /home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python_parameters
+[4.200s] writing list of installed files to '/home/tomasz/Desktop/sese_ws/build/python_parameters/install.log'
+[4.254s] Invoked command in '/home/tomasz/Desktop/sese_ws/src/python_parameters' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/tomasz/Desktop/sese_ws/build/python_parameters/build install --record /home/tomasz/Desktop/sese_ws/build/python_parameters/install.log --single-version-externally-managed install_data

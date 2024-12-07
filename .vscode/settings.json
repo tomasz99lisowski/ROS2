@@ -48,5 +48,6 @@
         "/home/tomasz/Desktop/sese_ws/build/examples_rclpy_executors",
         "/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors/lib/python3.12/site-packages",
         "/opt/ros/jazzy/lib/python3.12/site-packages"
-    ]
+    ],
+    "cmake.sourceDirectory": "/home/tomasz/Desktop/sese_ws/src/tutorial_interfaces"
 }

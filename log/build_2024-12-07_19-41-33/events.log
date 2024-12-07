@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.001404] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001877] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001948] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.002005] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.002048] (python_parameters) JobQueued: {'identifier': 'python_parameters', 'dependencies': OrderedDict()}
+[0.002085] (python_parameters) JobStarted: {'identifier': 'python_parameters'}
+[0.099456] (-) TimerEvent: {}
+[0.199868] (-) TimerEvent: {}
+[0.300321] (-) TimerEvent: {}
+[0.400807] (-) TimerEvent: {}
+[0.501182] (-) TimerEvent: {}
+[0.602584] (-) TimerEvent: {}
+[0.702992] (-) TimerEvent: {}
+[0.803377] (-) TimerEvent: {}
+[0.903778] (-) TimerEvent: {}
+[1.004182] (-) TimerEvent: {}
+[1.104613] (-) TimerEvent: {}
+[1.204974] (-) TimerEvent: {}
+[1.305366] (-) TimerEvent: {}
+[1.405767] (-) TimerEvent: {}
+[1.506165] (-) TimerEvent: {}
+[1.606542] (-) TimerEvent: {}
+[1.706915] (-) TimerEvent: {}
+[1.807679] (-) TimerEvent: {}
+[1.908338] (-) TimerEvent: {}
+[2.008744] (-) TimerEvent: {}
+[2.109220] (-) TimerEvent: {}
+[2.209640] (-) TimerEvent: {}
+[2.310024] (-) TimerEvent: {}
+[2.410382] (-) TimerEvent: {}
+[2.510686] (-) TimerEvent: {}
+[2.610997] (-) TimerEvent: {}
+[2.711316] (-) TimerEvent: {}
+[2.811689] (-) TimerEvent: {}
+[2.816382] (python_parameters) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/python_parameters', 'build', '--build-base', '/home/tomasz/Desktop/sese_ws/build/python_parameters/build', 'install', '--record', '/home/tomasz/Desktop/sese_ws/build/python_parameters/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/tomasz/Desktop/sese_ws/src/python_parameters', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tomasz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_wait_set/lib:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tomasz', 'OLDPWD': '/home/tomasz/Desktop/sese_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2788', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/tomasz/Desktop/sese_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tomasz', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tomasz', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tomasz:@/tmp/.ICE-unix/2740,unix/tomasz:/tmp/.ICE-unix/2740', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f98b81f1_571b_48c7_8870_9eb55f26a79e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_wait_set:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_multithreaded_executor:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_timer:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_composition:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_cbg_executor:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_async_client:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tomasz/Desktop/sese_ws/build/python_parameters', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tomasz/Desktop/sese_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/install/py_srvcli/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/install/py_pubsub/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/install/my_package/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_executors:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_wait_set:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_multithreaded_executor:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_timer:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_composition:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_cbg_executor:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_async_client:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.911818] (-) TimerEvent: {}
+[3.012183] (-) TimerEvent: {}
+[3.112538] (-) TimerEvent: {}
+[3.212878] (-) TimerEvent: {}
+[3.313244] (-) TimerEvent: {}
+[3.413536] (-) TimerEvent: {}
+[3.513822] (-) TimerEvent: {}
+[3.539289] (python_parameters) StdoutLine: {'line': b'running egg_info\n'}
+[3.539892] (python_parameters) StdoutLine: {'line': b'creating ../../build/python_parameters/python_parameters.egg-info\n'}
+[3.592045] (python_parameters) StdoutLine: {'line': b'writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO\n'}
+[3.592471] (python_parameters) StdoutLine: {'line': b'writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt\n'}
+[3.592972] (python_parameters) StdoutLine: {'line': b'writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt\n'}
+[3.593367] (python_parameters) StdoutLine: {'line': b'writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt\n'}
+[3.593682] (python_parameters) StdoutLine: {'line': b'writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt\n'}
+[3.594142] (python_parameters) StdoutLine: {'line': b"writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'\n"}
+[3.613963] (-) TimerEvent: {}
+[3.700691] (python_parameters) StdoutLine: {'line': b"reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'\n"}
+[3.701101] (python_parameters) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.702164] (python_parameters) StdoutLine: {'line': b"writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'\n"}
+[3.702588] (python_parameters) StdoutLine: {'line': b'running build\n'}
+[3.702789] (python_parameters) StdoutLine: {'line': b'running build_py\n'}
+[3.703061] (python_parameters) StdoutLine: {'line': b'creating /home/tomasz/Desktop/sese_ws/build/python_parameters/build\n'}
+[3.703302] (python_parameters) StdoutLine: {'line': b'creating /home/tomasz/Desktop/sese_ws/build/python_parameters/build/lib\n'}
+[3.703472] (python_parameters) StdoutLine: {'line': b'creating /home/tomasz/Desktop/sese_ws/build/python_parameters/build/lib/python_parameters\n'}
+[3.703674] (python_parameters) StdoutLine: {'line': b'copying python_parameters/__init__.py -> /home/tomasz/Desktop/sese_ws/build/python_parameters/build/lib/python_parameters\n'}
+[3.703908] (python_parameters) StdoutLine: {'line': b'copying python_parameters/python_parameters_node.py -> /home/tomasz/Desktop/sese_ws/build/python_parameters/build/lib/python_parameters\n'}
+[3.704384] (python_parameters) StdoutLine: {'line': b'running install\n'}
+[3.714088] (-) TimerEvent: {}
+[3.719151] (python_parameters) StdoutLine: {'line': b'running install_lib\n'}
+[3.773259] (python_parameters) StdoutLine: {'line': b'creating /home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters\n'}
+[3.773620] (python_parameters) StdoutLine: {'line': b'copying /home/tomasz/Desktop/sese_ws/build/python_parameters/build/lib/python_parameters/__init__.py -> /home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters\n'}
+[3.773936] (python_parameters) StdoutLine: {'line': b'copying /home/tomasz/Desktop/sese_ws/build/python_parameters/build/lib/python_parameters/python_parameters_node.py -> /home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters\n'}
+[3.775364] (python_parameters) StdoutLine: {'line': b'byte-compiling /home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters/__init__.py to __init__.cpython-312.pyc\n'}
+[3.776078] (python_parameters) StdoutLine: {'line': b'byte-compiling /home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters/python_parameters_node.py to python_parameters_node.cpython-312.pyc\n'}
+[3.777182] (python_parameters) StdoutLine: {'line': b'running install_data\n'}
+[3.777614] (python_parameters) StdoutLine: {'line': b'creating /home/tomasz/Desktop/sese_ws/install/python_parameters/share/ament_index\n'}
+[3.777857] (python_parameters) StdoutLine: {'line': b'creating /home/tomasz/Desktop/sese_ws/install/python_parameters/share/ament_index/resource_index\n'}
+[3.778135] (python_parameters) StdoutLine: {'line': b'creating /home/tomasz/Desktop/sese_ws/install/python_parameters/share/ament_index/resource_index/packages\n'}
+[3.778288] (python_parameters) StdoutLine: {'line': b'copying resource/python_parameters -> /home/tomasz/Desktop/sese_ws/install/python_parameters/share/ament_index/resource_index/packages\n'}
+[3.778513] (python_parameters) StdoutLine: {'line': b'copying package.xml -> /home/tomasz/Desktop/sese_ws/install/python_parameters/share/python_parameters\n'}
+[3.778739] (python_parameters) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.814205] (-) TimerEvent: {}
+[3.835877] (python_parameters) StdoutLine: {'line': b'Copying ../../build/python_parameters/python_parameters.egg-info to /home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters-0.0.0-py3.12.egg-info\n'}
+[3.838553] (python_parameters) StdoutLine: {'line': b'running install_scripts\n'}
+[3.914333] (-) TimerEvent: {}
+[4.014629] (-) TimerEvent: {}
+[4.114913] (-) TimerEvent: {}
+[4.201548] (python_parameters) StdoutLine: {'line': b'Installing minimal_param_node script to /home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python_parameters\n'}
+[4.202142] (python_parameters) StdoutLine: {'line': b"writing list of installed files to '/home/tomasz/Desktop/sese_ws/build/python_parameters/install.log'\n"}
+[4.215040] (-) TimerEvent: {}
+[4.255309] (python_parameters) CommandEnded: {'returncode': 0}
+[4.284669] (python_parameters) JobEnded: {'identifier': 'python_parameters', 'rc': 0}
+[4.286206] (-) EventReactorShutdown: {}
