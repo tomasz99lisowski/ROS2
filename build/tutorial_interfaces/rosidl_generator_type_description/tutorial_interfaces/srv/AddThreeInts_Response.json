@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "tutorial_interfaces/srv/AddThreeInts_Response",
+      "fields": [
+        {
+          "name": "sum",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "tutorial_interfaces/srv/AddThreeInts_Response",
+      "hash_string": "RIHS01_ef95797c0bb072a69646ecfe51ea3da3a7742256e4e5a7d658ebe4c8848fc8a4"
+    }
+  ]
+}

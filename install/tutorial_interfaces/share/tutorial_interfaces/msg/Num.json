@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "tutorial_interfaces/msg/Num",
+      "fields": [
+        {
+          "name": "num",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "tutorial_interfaces/msg/Num",
+      "hash_string": "RIHS01_03640ede6594103d8e8515e5d733cf752494e4185aca5a1f38197f5cbaa8d3c4"
+    }
+  ]
+}

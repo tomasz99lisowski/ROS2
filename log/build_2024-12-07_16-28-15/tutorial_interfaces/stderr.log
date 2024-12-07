@@ -1,0 +1,8 @@
+[31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+  rosidl_generate_interfaces() the passed file 'msg.Sphere/msg' doesn't exist
+  relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/tomasz/Desktop/sese_ws/src/tutorial_interfaces'
+Call Stack (most recent call first):
+  CMakeLists.txt:16 (rosidl_generate_interfaces)
+
+[0m

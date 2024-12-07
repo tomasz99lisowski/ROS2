@@ -1,0 +1,30 @@
+[0.670s] Invoking command in '/home/tomasz/Desktop/sese_ws/src/py_srvcli': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/py_srvcli/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/tomasz/Desktop/sese_ws/build/py_srvcli/build install --record /home/tomasz/Desktop/sese_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
+[0.892s] running egg_info
+[0.908s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[0.909s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[0.909s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[0.909s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[0.909s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[0.942s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.942s] adding license file 'LICENSE'
+[0.943s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.943s] running build
+[0.943s] running build_py
+[0.943s] copying py_srvcli/client_member_function.py -> /home/tomasz/Desktop/sese_ws/build/py_srvcli/build/lib/py_srvcli
+[0.943s] copying py_srvcli/service_member_function.py -> /home/tomasz/Desktop/sese_ws/build/py_srvcli/build/lib/py_srvcli
+[0.944s] running install
+[0.948s] running install_lib
+[0.965s] copying /home/tomasz/Desktop/sese_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/tomasz/Desktop/sese_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli
+[0.965s] copying /home/tomasz/Desktop/sese_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/tomasz/Desktop/sese_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli
+[0.966s] byte-compiling /home/tomasz/Desktop/sese_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-312.pyc
+[0.966s] byte-compiling /home/tomasz/Desktop/sese_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-312.pyc
+[0.967s] running install_data
+[0.967s] copying package.xml -> /home/tomasz/Desktop/sese_ws/install/py_srvcli/share/py_srvcli
+[0.967s] running install_egg_info
+[0.985s] removing '/home/tomasz/Desktop/sese_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli-0.0.0-py3.12.egg-info' (and everything under it)
+[0.985s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/tomasz/Desktop/sese_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli-0.0.0-py3.12.egg-info
+[0.986s] running install_scripts
+[1.100s] Installing client script to /home/tomasz/Desktop/sese_ws/install/py_srvcli/lib/py_srvcli
+[1.100s] Installing service script to /home/tomasz/Desktop/sese_ws/install/py_srvcli/lib/py_srvcli
+[1.100s] writing list of installed files to '/home/tomasz/Desktop/sese_ws/build/py_srvcli/install.log'
+[1.120s] Invoked command in '/home/tomasz/Desktop/sese_ws/src/py_srvcli' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/py_srvcli/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/tomasz/Desktop/sese_ws/build/py_srvcli/build install --record /home/tomasz/Desktop/sese_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
