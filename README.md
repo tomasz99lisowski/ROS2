@@ -1,4 +1,4 @@
-# ROS2 Repository for Ground Segment - Part of the SimLE SeaSentinel Program
+# ROS2 Repository for the Ground Segment - Part of the SimLE SeaSentinel Program
 # Description
 
 This repository contains packages enabling communication between the Ground Segment (GS) and the Autonomous Surface Vehicle (ASV). As part of the project, the primary task for the GS is to provide an environment with a Graphical User Interface (GUI) for users. The goal is to create a package that publishes and subscribes to data from the ASV, such as:
