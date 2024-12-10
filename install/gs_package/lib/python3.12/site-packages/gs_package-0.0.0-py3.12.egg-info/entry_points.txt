@@ -1,0 +1,3 @@
+[console_scripts]
+publish = gs_package.gs_publisher:main
+subscribe = gs_package.gs_subscriber:main

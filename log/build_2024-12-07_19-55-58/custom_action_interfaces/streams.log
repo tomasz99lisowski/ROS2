@@ -1,0 +1,237 @@
+[0.093s] Invoking command in '/home/tomasz/Desktop/sese_ws/build/custom_action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tomasz/Desktop/sese_ws/src/custom_action_interfaces -DCMAKE_INSTALL_PREFIX=/home/tomasz/Desktop/sese_ws/install/custom_action_interfaces
+[1.515s] -- The C compiler identification is GNU 13.2.0
+[1.516s] -- The CXX compiler identification is GNU 13.2.0
+[1.517s] -- Detecting C compiler ABI info
+[1.517s] -- Detecting C compiler ABI info - done
+[1.517s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.518s] -- Detecting C compile features
+[1.518s] -- Detecting C compile features - done
+[1.519s] -- Detecting CXX compiler ABI info
+[1.519s] -- Detecting CXX compiler ABI info - done
+[1.519s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.519s] -- Detecting CXX compile features
+[1.520s] -- Detecting CXX compile features - done
+[1.520s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.781s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.211s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.253s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.493s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.694s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[4.569s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[5.865s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.464s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.484s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[7.859s] -- Found PythonExtra: /usr/bin/python3  
+[8.982s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[9.080s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[9.179s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.180s] -- Configured 'flake8' exclude dirs and/or files: 
+[9.183s] -- Added test 'lint_cmake' to check CMake code style
+[9.186s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.194s] -- Added test 'xmllint' to check XML markup files
+[9.202s] -- Configuring done (9.1s)
+[9.278s] -- Generating done (0.1s)
+[9.284s] -- Build files have been written to: /home/tomasz/Desktop/sese_ws/build/custom_action_interfaces
+[9.301s] Invoked command in '/home/tomasz/Desktop/sese_ws/build/custom_action_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tomasz/Desktop/sese_ws/src/custom_action_interfaces -DCMAKE_INSTALL_PREFIX=/home/tomasz/Desktop/sese_ws/install/custom_action_interfaces
+[9.302s] Invoking command in '/home/tomasz/Desktop/sese_ws/build/custom_action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomasz/Desktop/sese_ws/build/custom_action_interfaces -- -j16 -l16
+[9.398s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[9.415s] [  2%] Built target ament_cmake_python_copy_custom_action_interfaces
+[9.731s] [  2%] Built target custom_action_interfaces__rosidl_generator_type_description
+[9.749s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.766s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.815s] running egg_info
+[9.816s] creating custom_action_interfaces.egg-info
+[9.849s] writing custom_action_interfaces.egg-info/PKG-INFO
+[9.850s] writing dependency_links to custom_action_interfaces.egg-info/dependency_links.txt
+[9.850s] writing top-level names to custom_action_interfaces.egg-info/top_level.txt
+[9.850s] writing manifest file 'custom_action_interfaces.egg-info/SOURCES.txt'
+[9.944s] reading manifest file 'custom_action_interfaces.egg-info/SOURCES.txt'
+[9.944s] writing manifest file 'custom_action_interfaces.egg-info/SOURCES.txt'
+[9.980s] [  8%] Built target ament_cmake_python_build_custom_action_interfaces_egg
+[10.291s] [  8%] Built target custom_action_interfaces__cpp
+[10.324s] [ 17%] [32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_action_interfaces/action/detail/fibonacci__functions.c.o[0m
+[10.325s] [ 17%] [32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_action_interfaces/action/detail/fibonacci__type_support.c.o[0m
+[10.325s] [ 17%] [32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_action_interfaces/action/detail/fibonacci__description.c.o[0m
+[10.540s] [ 20%] [32m[1mLinking C shared library libcustom_action_interfaces__rosidl_generator_c.so[0m
+[10.586s] [ 20%] Built target custom_action_interfaces__rosidl_generator_c
+[10.599s] [ 35%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.599s] [ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.599s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.599s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.599s] [ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.600s] [ 38%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.875s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_action_interfaces/action/fibonacci__type_support.cpp.o[0m
+[10.880s] [ 44%] [32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_action_interfaces/action/fibonacci__type_support.cpp.o[0m
+[10.927s] [ 47%] [32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_action_interfaces/action/detail/fibonacci__type_support.cpp.o[0m
+[10.945s] [ 50%] [32m[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_c.so[0m
+[10.947s] [ 52%] [32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_action_interfaces/action/detail/fibonacci__type_support.c.o[0m
+[10.990s] [ 52%] Built target custom_action_interfaces__rosidl_typesupport_c
+[11.023s] [ 55%] [32m[1mLinking C shared library libcustom_action_interfaces__rosidl_typesupport_introspection_c.so[0m
+[11.034s] [ 58%] [32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_action_interfaces/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o[0m
+[11.057s] [ 58%] Built target custom_action_interfaces__rosidl_typesupport_introspection_c
+[11.068s] [ 61%] [32mBuilding CXX object CMakeFiles/custom_action_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_action_interfaces/action/detail/fibonacci__type_support_c.cpp.o[0m
+[11.612s] [ 64%] [32m[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_cpp.so[0m
+[11.635s] [ 67%] [32m[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[11.684s] [ 67%] Built target custom_action_interfaces__rosidl_typesupport_fastrtps_c
+[11.684s] [ 67%] Built target custom_action_interfaces__rosidl_typesupport_cpp
+[11.711s] [ 70%] [32m[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[11.775s] [ 70%] Built target custom_action_interfaces__rosidl_typesupport_introspection_cpp
+[12.005s] [ 73%] [32m[1mLinking CXX shared library libcustom_action_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.071s] [ 73%] Built target custom_action_interfaces__rosidl_typesupport_fastrtps_cpp
+[12.090s] [ 73%] Built target custom_action_interfaces
+[12.109s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.590s] [ 76%] Built target custom_action_interfaces__py
+[12.609s] [ 79%] [32mBuilding C object CMakeFiles/custom_action_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_action_interfaces/action/_fibonacci_s.c.o[0m
+[12.802s] [ 82%] [32m[1mLinking C shared library libcustom_action_interfaces__rosidl_generator_py.so[0m
+[12.844s] [ 82%] Built target custom_action_interfaces__rosidl_generator_py
+[12.863s] [ 91%] [32mBuilding C object CMakeFiles/custom_action_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[12.863s] [ 91%] [32mBuilding C object CMakeFiles/custom_action_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.863s] [ 91%] [32mBuilding C object CMakeFiles/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.976s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[12.976s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_c.so[0m
+[12.979s] [100%] [32m[1mLinking C shared module rosidl_generator_py/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[13.006s] [100%] Built target custom_action_interfaces_s__rosidl_typesupport_c
+[13.006s] [100%] Built target custom_action_interfaces_s__rosidl_typesupport_introspection_c
+[13.008s] [100%] Built target custom_action_interfaces_s__rosidl_typesupport_fastrtps_c
+[13.019s] Invoked command in '/home/tomasz/Desktop/sese_ws/build/custom_action_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomasz/Desktop/sese_ws/build/custom_action_interfaces -- -j16 -l16
+[13.081s] Invoking command in '/home/tomasz/Desktop/sese_ws/build/custom_action_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomasz/Desktop/sese_ws/build/custom_action_interfaces
+[13.088s] -- Install configuration: ""
+[13.089s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_action_interfaces
+[13.089s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/action/Fibonacci.json
+[13.089s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[13.089s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[13.089s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[13.089s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.h
+[13.089s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__description.c
+[13.090s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__struct.h
+[13.090s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__functions.h
+[13.090s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__functions.c
+[13.090s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.c
+[13.090s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/fibonacci.h
+[13.090s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg
+[13.090s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_generator_c__visibility_control.h
+[13.091s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/library_path.sh
+[13.091s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/library_path.dsv
+[13.091s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_generator_c.so
+[13.091s] -- Set non-toolchain portion of runtime path of "/home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_generator_c.so" to ""
+[13.091s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[13.091s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[13.091s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[13.092s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[13.092s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg
+[13.092s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.092s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so
+[13.092s] -- Set non-toolchain portion of runtime path of "/home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[13.092s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[13.092s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[13.092s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[13.092s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.c
+[13.092s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[13.093s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg
+[13.093s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.093s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_introspection_c.so
+[13.093s] -- Set non-toolchain portion of runtime path of "/home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[13.093s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_c.so
+[13.094s] -- Set non-toolchain portion of runtime path of "/home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_c.so" to ""
+[13.094s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[13.094s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[13.094s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/fibonacci.hpp
+[13.094s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[13.094s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__traits.hpp
+[13.094s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__builder.hpp
+[13.094s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.hpp
+[13.094s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__struct.hpp
+[13.094s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg
+[13.094s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[13.095s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[13.095s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[13.095s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[13.095s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[13.095s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/dds_fastrtps
+[13.095s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg
+[13.095s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.095s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[13.096s] -- Set non-toolchain portion of runtime path of "/home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.096s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces
+[13.096s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action
+[13.096s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail
+[13.096s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__type_support.cpp
+[13.096s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/include/custom_action_interfaces/custom_action_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[13.096s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_introspection_cpp.so
+[13.097s] -- Set non-toolchain portion of runtime path of "/home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[13.097s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_cpp.so
+[13.097s] -- Set non-toolchain portion of runtime path of "/home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_typesupport_cpp.so" to ""
+[13.097s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/pythonpath.sh
+[13.097s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/pythonpath.dsv
+[13.098s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces-0.0.0-py3.12.egg-info
+[13.098s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[13.098s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[13.098s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[13.098s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[13.098s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces
+[13.098s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[13.098s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_introspection_c.so
+[13.099s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[13.099s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action
+[13.099s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action/_fibonacci.py
+[13.099s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action/_fibonacci_s.c
+[13.099s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action/__init__.py
+[13.099s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_c.so
+[13.099s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/__init__.py
+[13.100s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_c.c
+[13.100s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/_custom_action_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.142s] Listing '/home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces'...
+[13.142s] Compiling '/home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/__init__.py'...
+[13.142s] Listing '/home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action'...
+[13.143s] Compiling '/home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action/__init__.py'...
+[13.143s] Compiling '/home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/action/_fibonacci.py'...
+[13.147s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[13.147s] -- Set non-toolchain portion of runtime path of "/home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[13.147s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_introspection_c.so
+[13.148s] -- Set non-toolchain portion of runtime path of "/home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[13.148s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_c.so
+[13.148s] -- Set non-toolchain portion of runtime path of "/home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages/custom_action_interfaces/custom_action_interfaces_s__rosidl_typesupport_c.so" to ""
+[13.148s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_generator_py.so
+[13.149s] -- Set non-toolchain portion of runtime path of "/home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/libcustom_action_interfaces__rosidl_generator_py.so" to ""
+[13.149s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/action/Fibonacci.idl
+[13.149s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/action/Fibonacci.action
+[13.149s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_action_interfaces
+[13.149s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_action_interfaces
+[13.149s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/ament_prefix_path.sh
+[13.150s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/ament_prefix_path.dsv
+[13.150s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/path.sh
+[13.150s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/environment/path.dsv
+[13.150s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/local_setup.bash
+[13.150s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/local_setup.sh
+[13.150s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/local_setup.zsh
+[13.151s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/local_setup.dsv
+[13.151s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/package.dsv
+[13.151s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/ament_index/resource_index/packages/custom_action_interfaces
+[13.151s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_cExport.cmake
+[13.151s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_cExport-noconfig.cmake
+[13.151s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[13.151s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[13.152s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[13.152s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[13.152s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_cExport.cmake
+[13.152s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[13.152s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_cppExport.cmake
+[13.152s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.153s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[13.153s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[13.153s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.153s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_cppExport.cmake
+[13.153s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[13.153s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_pyExport.cmake
+[13.153s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/export_custom_action_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[13.154s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/rosidl_cmake-extras.cmake
+[13.154s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.154s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.154s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[13.154s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[13.154s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.154s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.155s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfacesConfig.cmake
+[13.155s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/cmake/custom_action_interfacesConfig-version.cmake
+[13.155s] -- Installing: /home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/share/custom_action_interfaces/package.xml
+[13.158s] Invoked command in '/home/tomasz/Desktop/sese_ws/build/custom_action_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomasz/Desktop/sese_ws/build/custom_action_interfaces

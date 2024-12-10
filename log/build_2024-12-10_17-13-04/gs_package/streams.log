@@ -1,0 +1,27 @@
+[0.692s] Invoking command in '/home/tomasz/Desktop/sese_ws/src/gs_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/gs_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gs_package build --build-base /home/tomasz/Desktop/sese_ws/build/gs_package/build install --record /home/tomasz/Desktop/sese_ws/build/gs_package/install.log --single-version-externally-managed install_data
+[0.922s] running egg_info
+[0.939s] writing ../../build/gs_package/gs_package.egg-info/PKG-INFO
+[0.940s] writing dependency_links to ../../build/gs_package/gs_package.egg-info/dependency_links.txt
+[0.940s] writing requirements to ../../build/gs_package/gs_package.egg-info/requires.txt
+[0.940s] writing top-level names to ../../build/gs_package/gs_package.egg-info/top_level.txt
+[0.974s] reading manifest file '../../build/gs_package/gs_package.egg-info/SOURCES.txt'
+[0.975s] adding license file 'LICENSE'
+[0.975s] writing manifest file '../../build/gs_package/gs_package.egg-info/SOURCES.txt'
+[0.975s] running build
+[0.975s] running build_py
+[0.975s] copying gs_package/gs_publisher.py -> /home/tomasz/Desktop/sese_ws/build/gs_package/build/lib/gs_package
+[0.975s] copying gs_package/gs_subscriber.py -> /home/tomasz/Desktop/sese_ws/build/gs_package/build/lib/gs_package
+[0.975s] running install
+[0.980s] running install_lib
+[0.998s] copying /home/tomasz/Desktop/sese_ws/build/gs_package/build/lib/gs_package/gs_publisher.py -> /home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages/gs_package
+[0.998s] copying /home/tomasz/Desktop/sese_ws/build/gs_package/build/lib/gs_package/gs_subscriber.py -> /home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages/gs_package
+[0.998s] byte-compiling /home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages/gs_package/gs_publisher.py to gs_publisher.cpython-312.pyc
+[0.999s] byte-compiling /home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages/gs_package/gs_subscriber.py to gs_subscriber.cpython-312.pyc
+[0.999s] running install_data
+[0.999s] copying package.xml -> /home/tomasz/Desktop/sese_ws/install/gs_package/share/gs_package
+[0.999s] running install_egg_info
+[1.018s] removing '/home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages/gs_package-0.0.0-py3.12.egg-info' (and everything under it)
+[1.018s] Copying ../../build/gs_package/gs_package.egg-info to /home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages/gs_package-0.0.0-py3.12.egg-info
+[1.019s] running install_scripts
+[1.137s] writing list of installed files to '/home/tomasz/Desktop/sese_ws/build/gs_package/install.log'
+[1.160s] Invoked command in '/home/tomasz/Desktop/sese_ws/src/gs_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/gs_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gs_package build --build-base /home/tomasz/Desktop/sese_ws/build/gs_package/build install --record /home/tomasz/Desktop/sese_ws/build/gs_package/install.log --single-version-externally-managed install_data

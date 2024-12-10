@@ -1,0 +1,522 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "custom_action_interfaces/action/Fibonacci",
+      "fields": [
+        {
+          "name": "goal",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "custom_action_interfaces/action/Fibonacci_Goal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "custom_action_interfaces/action/Fibonacci_Result"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "custom_action_interfaces/action/Fibonacci_Feedback"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "send_goal_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "custom_action_interfaces/action/Fibonacci_SendGoal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "get_result_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "custom_action_interfaces/action/Fibonacci_GetResult"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "custom_action_interfaces/action/Fibonacci_FeedbackMessage"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "custom_action_interfaces/action/Fibonacci_Feedback",
+        "fields": [
+          {
+            "name": "partial_sequence",
+            "type": {
+              "type_id": 150,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "custom_action_interfaces/action/Fibonacci_FeedbackMessage",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "feedback",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "custom_action_interfaces/action/Fibonacci_Feedback"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "custom_action_interfaces/action/Fibonacci_GetResult",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "custom_action_interfaces/action/Fibonacci_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "custom_action_interfaces/action/Fibonacci_GetResult_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "custom_action_interfaces/action/Fibonacci_GetResult_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "custom_action_interfaces/action/Fibonacci_GetResult_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "custom_action_interfaces/action/Fibonacci_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "custom_action_interfaces/action/Fibonacci_GetResult_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "custom_action_interfaces/action/Fibonacci_GetResult_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "custom_action_interfaces/action/Fibonacci_GetResult_Response",
+        "fields": [
+          {
+            "name": "status",
+            "type": {
+              "type_id": 2,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "result",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "custom_action_interfaces/action/Fibonacci_Result"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "custom_action_interfaces/action/Fibonacci_Goal",
+        "fields": [
+          {
+            "name": "order",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "custom_action_interfaces/action/Fibonacci_Result",
+        "fields": [
+          {
+            "name": "sequence",
+            "type": {
+              "type_id": 150,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "custom_action_interfaces/action/Fibonacci_SendGoal",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "custom_action_interfaces/action/Fibonacci_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "custom_action_interfaces/action/Fibonacci_SendGoal_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "custom_action_interfaces/action/Fibonacci_SendGoal_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "custom_action_interfaces/action/Fibonacci_SendGoal_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "custom_action_interfaces/action/Fibonacci_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "custom_action_interfaces/action/Fibonacci_SendGoal_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "custom_action_interfaces/action/Fibonacci_SendGoal_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "goal",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "custom_action_interfaces/action/Fibonacci_Goal"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "custom_action_interfaces/action/Fibonacci_SendGoal_Response",
+        "fields": [
+          {
+            "name": "accepted",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "service_msgs/msg/ServiceEventInfo",
+        "fields": [
+          {
+            "name": "event_type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "client_gid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "sequence_number",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "unique_identifier_msgs/msg/UUID",
+        "fields": [
+          {
+            "name": "uuid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "custom_action_interfaces/action/Fibonacci",
+      "hash_string": "RIHS01_cd2d79189d941df81b8a4bd952ce1f6f8bab678efaf2851a4b1ef6031a633828"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "custom_action_interfaces/action/Fibonacci_Feedback",
+      "hash_string": "RIHS01_8e11980979ee5d599d6ddbf78a78af8b63ae7e4a6dfbc1df4cf3220454211ae8"
+    },
+    {
+      "type_name": "custom_action_interfaces/action/Fibonacci_FeedbackMessage",
+      "hash_string": "RIHS01_0b862d2c534bf2d42019c82fcc71a0eeeee9d8023cc77277163f7f246876be07"
+    },
+    {
+      "type_name": "custom_action_interfaces/action/Fibonacci_GetResult",
+      "hash_string": "RIHS01_2d01fbf73115b49b28af7e932bc7ff5ac9c94c19b9f71769dd81242a2667925a"
+    },
+    {
+      "type_name": "custom_action_interfaces/action/Fibonacci_GetResult_Event",
+      "hash_string": "RIHS01_465e3ccc3615c418a99f20e6aad940a997afb84bea01e3cedeedec711b11fe84"
+    },
+    {
+      "type_name": "custom_action_interfaces/action/Fibonacci_GetResult_Request",
+      "hash_string": "RIHS01_dc378fd547235c9a976094492f1eb48a408a0a745ef051046207feafe6420f1d"
+    },
+    {
+      "type_name": "custom_action_interfaces/action/Fibonacci_GetResult_Response",
+      "hash_string": "RIHS01_55ff57e8116baa89667710fed2e1a7de0e552cc02e284d53b361eca519f7012e"
+    },
+    {
+      "type_name": "custom_action_interfaces/action/Fibonacci_Goal",
+      "hash_string": "RIHS01_3cce4e2f29dd61d845e5d9855df63808ee69963a1b2499b502d7175c8ef9ebdc"
+    },
+    {
+      "type_name": "custom_action_interfaces/action/Fibonacci_Result",
+      "hash_string": "RIHS01_d8cf1b3423f3c0a79296414cee21c9f195753ed16f8ea5fca19b83aea04bc123"
+    },
+    {
+      "type_name": "custom_action_interfaces/action/Fibonacci_SendGoal",
+      "hash_string": "RIHS01_cd44195cea6407c31072909245178934e410f8ce3ffca90ab35a8e77a5dd08d7"
+    },
+    {
+      "type_name": "custom_action_interfaces/action/Fibonacci_SendGoal_Event",
+      "hash_string": "RIHS01_c4920dc51ce3107930b84dc92bbbda4f8d14dde7e37b6e499f6db0d177457302"
+    },
+    {
+      "type_name": "custom_action_interfaces/action/Fibonacci_SendGoal_Request",
+      "hash_string": "RIHS01_eda9edac51edbc2591a084a904d1dbba336595136f4da7fc92ba35ab418f6a05"
+    },
+    {
+      "type_name": "custom_action_interfaces/action/Fibonacci_SendGoal_Response",
+      "hash_string": "RIHS01_edb63579c419717f02d7eef58a85482abb39ec3f9c8f68d90e545fde29ab9fbc"
+    },
+    {
+      "type_name": "service_msgs/msg/ServiceEventInfo",
+      "hash_string": "RIHS01_41bcbbe07a75c9b52bc96bfd5c24d7f0fc0a08c0cb7921b3373c5732345a6f45"
+    },
+    {
+      "type_name": "unique_identifier_msgs/msg/UUID",
+      "hash_string": "RIHS01_1b8e8aca958cbea28fe6ef60bf6c19b683c97a9ef60bb34752067d0f2f7ab437"
+    }
+  ]
+}
