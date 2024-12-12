@@ -1,0 +1,3 @@
+# ingnore .idea and .vscode
+*.idea
+*.vscode
