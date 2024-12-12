@@ -1,22 +1,26 @@
 import rclpy
 from rclpy.node import Node
-
-from std_msgs.msg import String
-
+from sensor_msgs.msg import Image
+from cv_bridge import CvBridge
+import cv2
 
 class MinimalSubscriber(Node):
 
     def __init__(self):
         super().__init__('gs_subscriber')
         self.subscription = self.create_subscription(
-            String,
-            'topic',
+            Image,
+            'video_frames',
             self.listener_callback,
             10)
-        self.subscription  # prevent unused variable warning
+        self.subscription          # prevent unused variable warning
+        self.br = CvBridge()
 
-    def listener_callback(self, msg):
-        self.get_logger().info('I heard: "%s"' % msg.data)
+    def listener_callback(self, data):
+        self.get_logger().info('Receving video frame')
+        currnet_frame = self.br.imgmsg_to_cv2(data)
+        cv2.imshow("camera", currnet_frame)
+        cv2.waitKey(1)
 
 
 def main(args=None):
