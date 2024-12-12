@@ -1,3 +1,4 @@
 # ingnore .idea and .vscode
-*.idea
-*.vscode
+/.idea
+/.vscode
+
