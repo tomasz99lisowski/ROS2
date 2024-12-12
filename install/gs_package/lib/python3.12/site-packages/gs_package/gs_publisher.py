@@ -1,9 +1,7 @@
 import rclpy
-from GS_env.src.gs_camera import gs_camera
 from rclpy.node import Node
-
 from std_msgs.msg import String
-
+import cv2
 
 class MinimalPublisher(Node):
 
@@ -11,16 +9,40 @@ class MinimalPublisher(Node):
         super().__init__('gs_publisher')
         self.publisher_ = self.create_publisher(String, 'topic', 10)
         timer_period = 0.5  # seconds
-        self.timer = self.create_timer(timer_period, self.timer_callback)
+        self.timer = self.create_timer(timer_period, self.get_camera_image)
         self.i = 0
-        gs_camera()
+    #self.get_camera_image()
+        
+    def get_camera_image(self):
+        stream = cv2.VideoCapture(0)
+        if not stream.isOpened():
+            print("Unable to open camera")
+            return
+        while True:
+            ret, frame = stream.read()
+            if not ret:
+                break
+            cv2.imshow("GS Camera Stream", frame)
+            if cv2.waitKey(1) == ord("q"):
+                break
+        stream.release()
+        cv2.destroyAllWindows()
 
     def timer_callback(self):
+        # msg = String()
+        # msg.data = 'Hello World: %d' % self.i
+        # self.publisher_.publish(msg)
+        # self.get_logger().info('Publishing: "%s"' % msg.data)
+        # self.i += 1
+        
         msg = String()
-        msg.data = 'Hello World: %d' % self.i
+        msg.data = ''
         self.publisher_.publish(msg)
-        self.get_logger().info('Publishing: "%s"' % msg.data)
-        self.i += 1
+        self.get_logger().info('')
+        self.i = 0
+
+
+
 
 
 def main(args=None):

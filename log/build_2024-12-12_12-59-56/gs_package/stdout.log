@@ -1,0 +1,35 @@
+running egg_info
+writing ../../build/gs_package/gs_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/gs_package/gs_package.egg-info/dependency_links.txt
+writing entry points to ../../build/gs_package/gs_package.egg-info/entry_points.txt
+writing requirements to ../../build/gs_package/gs_package.egg-info/requires.txt
+writing top-level names to ../../build/gs_package/gs_package.egg-info/top_level.txt
+reading manifest file '../../build/gs_package/gs_package.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/gs_package/gs_package.egg-info/SOURCES.txt'
+running build
+running build_py
+copying gs_package/gs_publisher.py -> /home/tomasz/Desktop/sese_ws/build/gs_package/build/lib/gs_package
+copying gs_package/GS_env/__init__.py -> /home/tomasz/Desktop/sese_ws/build/gs_package/build/lib/gs_package/GS_env
+creating /home/tomasz/Desktop/sese_ws/build/gs_package/build/lib/gs_package/GS_env/src
+copying gs_package/GS_env/src/__init__.py -> /home/tomasz/Desktop/sese_ws/build/gs_package/build/lib/gs_package/GS_env/src
+copying gs_package/GS_env/src/gs_camera.py -> /home/tomasz/Desktop/sese_ws/build/gs_package/build/lib/gs_package/GS_env/src
+running install
+running install_lib
+copying /home/tomasz/Desktop/sese_ws/build/gs_package/build/lib/gs_package/gs_publisher.py -> /home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages/gs_package
+creating /home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages/gs_package/GS_env/src
+copying /home/tomasz/Desktop/sese_ws/build/gs_package/build/lib/gs_package/GS_env/src/__init__.py -> /home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages/gs_package/GS_env/src
+copying /home/tomasz/Desktop/sese_ws/build/gs_package/build/lib/gs_package/GS_env/src/gs_camera.py -> /home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages/gs_package/GS_env/src
+copying /home/tomasz/Desktop/sese_ws/build/gs_package/build/lib/gs_package/GS_env/__init__.py -> /home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages/gs_package/GS_env
+byte-compiling /home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages/gs_package/gs_publisher.py to gs_publisher.cpython-312.pyc
+byte-compiling /home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages/gs_package/GS_env/src/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages/gs_package/GS_env/src/gs_camera.py to gs_camera.cpython-312.pyc
+byte-compiling /home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages/gs_package/GS_env/__init__.py to __init__.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages/gs_package-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/gs_package/gs_package.egg-info to /home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages/gs_package-0.0.0-py3.12.egg-info
+running install_scripts
+Installing publish script to /home/tomasz/Desktop/sese_ws/install/gs_package/lib/gs_package
+Installing subscribe script to /home/tomasz/Desktop/sese_ws/install/gs_package/lib/gs_package
+writing list of installed files to '/home/tomasz/Desktop/sese_ws/build/gs_package/install.log'
