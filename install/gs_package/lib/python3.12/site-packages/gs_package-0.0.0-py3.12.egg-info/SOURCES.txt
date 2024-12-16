@@ -12,6 +12,7 @@ setup.py
 gs_package/__init__.py
 gs_package/gs_publisher.py
 gs_package/gs_subscriber.py
+launch/vis.launch.py
 resource/gs_package
 test/test_copyright.py
 test/test_flake8.py
