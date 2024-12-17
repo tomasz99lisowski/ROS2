@@ -23,6 +23,7 @@ setup(
     entry_points={
         'console_scripts': [
             'publish = gs_package.gs_publisher:main',
+            'point = gs_package.gs_point:main',
             'subscribe = gs_package.gs_subscriber:main',
         ],
     },

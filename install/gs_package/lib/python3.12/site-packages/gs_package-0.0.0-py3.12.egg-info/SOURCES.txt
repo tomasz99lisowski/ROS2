@@ -10,6 +10,7 @@ setup.py
 ../../build/gs_package/gs_package.egg-info/top_level.txt
 ../../build/gs_package/gs_package.egg-info/zip-safe
 gs_package/__init__.py
+gs_package/gs_point.py
 gs_package/gs_publisher.py
 gs_package/gs_subscriber.py
 launch/vis.launch.py
