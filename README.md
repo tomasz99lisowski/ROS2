@@ -5,7 +5,8 @@ This repository contains packages enabling communication between the Ground Segm
 
     1) Current and voltage on batteries,
     2) Direction of movement,
-    3) Resultant vector of propeller thrust.
+    3) Resultant vector of propeller thrust,
+    4) Camera image.
 
 All functionalities will integrate with the RViz GUI library provided by the ROS2 framework.
 
