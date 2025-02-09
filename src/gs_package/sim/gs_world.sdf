@@ -300,7 +300,7 @@
               <topic>cmd_vel</topic>
             </plugin>
         </model>
-        <!-- Steering the vehicle-->
+        <!-- Steering the-->
         <plugin filename="gz-sim-triggered-publisher-system"
                 name="gz::sim::systems::TriggeredPublisher">
             <input type="gz.msgs.Int32" topic="/keyboard/keypress">

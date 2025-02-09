@@ -1,0 +1,22 @@
+[2.571s] Invoking command in '/home/tomasz/Desktop/sese_ws/src/my_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/tomasz/Desktop/sese_ws/build/my_package/build install --record /home/tomasz/Desktop/sese_ws/build/my_package/install.log --single-version-externally-managed install_data
+[2.862s] running egg_info
+[2.884s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[2.885s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[2.885s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[2.885s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[2.885s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[2.931s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[2.931s] adding license file 'LICENSE'
+[2.932s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[2.932s] running build
+[2.932s] running build_py
+[2.932s] running install
+[2.938s] running install_lib
+[2.961s] running install_data
+[2.961s] running install_egg_info
+[2.985s] removing '/home/tomasz/Desktop/sese_ws/install/my_package/lib/python3.12/site-packages/my_package-0.0.0-py3.12.egg-info' (and everything under it)
+[2.986s] Copying ../../build/my_package/my_package.egg-info to /home/tomasz/Desktop/sese_ws/install/my_package/lib/python3.12/site-packages/my_package-0.0.0-py3.12.egg-info
+[2.988s] running install_scripts
+[3.142s] Installing my_node script to /home/tomasz/Desktop/sese_ws/install/my_package/lib/my_package
+[3.142s] writing list of installed files to '/home/tomasz/Desktop/sese_ws/build/my_package/install.log'
+[3.198s] Invoked command in '/home/tomasz/Desktop/sese_ws/src/my_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/tomasz/Desktop/sese_ws/build/my_package/build install --record /home/tomasz/Desktop/sese_ws/build/my_package/install.log --single-version-externally-managed install_data
