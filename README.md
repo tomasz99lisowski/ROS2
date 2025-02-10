@@ -8,7 +8,7 @@ This repository contains packages enabling communication between the Ground Segm
     3) Resultant vector of propeller thrust,
     4) Camera image.
 
-All functionalities will integrate with the RViz GUI library provided by the ROS2 framework.
+All functionalities will integrate with the RViz GUI library provided by the ROS2 framework. To obtain specific data from the vessel we use PX4-Autopilot combined with MicroXRCE-DDS that translates PX4 topics into ROS2 ones.
 
 # Table of Contents
 
@@ -28,3 +28,5 @@ Below is a brief description of each part of the repository:
 # What is working right now?
 
 The repository contains code that enables streaming from a camera connected to the same network. The feed can be viewed both through a dedicated subscriber and in the Rviz application.
+
+# 
