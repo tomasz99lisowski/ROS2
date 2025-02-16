@@ -8,7 +8,7 @@ This repository contains packages enabling communication between the Ground Segm
     3) Resultant vector of propeller thrust,
     4) Camera image.
 
-All functionalities will integrate with the RViz GUI library provided by the ROS2 framework. To obtain specific data from the vessel we use PX4-Autopilot combined with MicroXRCE-DDS that translates PX4 topics into ROS2 ones. Battery voltage is published directly to the onboard computer via sepcial integrated circut.
+All functionalities will integrate with the RViz GUI library provided by the ROS2 framework. To obtain specific data from the vessel we use PX4-Autopilot combined with MicroXRCE-DDS that translates PX4 topics into ROS2 ones. Battery voltage is published directly to the onboard computer via sepcial integrated circut. Message type of battery and voltage is float32.
 
 # Table of Contents
 
