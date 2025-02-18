@@ -1,0 +1,23 @@
+[4.244s] Invoking command in '/home/tomasz/Desktop/sese_ws/src/py_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/tomasz/Desktop/sese_ws/build/py_pubsub/build install --record /home/tomasz/Desktop/sese_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[4.991s] running egg_info
+[5.059s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[5.060s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[5.061s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[5.061s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[5.062s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[5.194s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[5.195s] adding license file 'LICENSE'
+[5.196s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[5.197s] running build
+[5.197s] running build_py
+[5.198s] running install
+[5.212s] running install_lib
+[5.299s] running install_data
+[5.302s] running install_egg_info
+[5.379s] removing '/home/tomasz/Desktop/sese_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info' (and everything under it)
+[5.380s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/tomasz/Desktop/sese_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[5.382s] running install_scripts
+[5.850s] Installing listener script to /home/tomasz/Desktop/sese_ws/install/py_pubsub/lib/py_pubsub
+[5.850s] Installing talker script to /home/tomasz/Desktop/sese_ws/install/py_pubsub/lib/py_pubsub
+[5.851s] writing list of installed files to '/home/tomasz/Desktop/sese_ws/build/py_pubsub/install.log'
+[5.944s] Invoked command in '/home/tomasz/Desktop/sese_ws/src/py_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/tomasz/Desktop/sese_ws/build/py_pubsub/build install --record /home/tomasz/Desktop/sese_ws/build/py_pubsub/install.log --single-version-externally-managed install_data

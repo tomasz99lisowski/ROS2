@@ -22,9 +22,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'publish = gs_package.gs_publisher:main',
+            'publish = gs_package.gs_batt_pub:main',
             'point = gs_package.gs_point:main',
-            'subscribe = gs_package.gs_subscriber:main',
+            'subscribe = gs_package.gs_batt_sub:main',
         ],
     },
 )

@@ -42,7 +42,6 @@ def main(args=None):
     minimal_publisher = MinimalPublisher()
 
     rclpy.spin(minimal_publisher)
-
     # Destroy the node explicitly
     # (optional - otherwise it will be done automatically
     # when the garbage collector destroys the node object)

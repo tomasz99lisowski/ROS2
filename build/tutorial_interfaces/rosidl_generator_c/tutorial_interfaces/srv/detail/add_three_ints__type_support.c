@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "tutorial_interfaces/srv/detail/add_three_ints__functions.h"
+#include "tutorial_interfaces/srv/detail/add_three_ints__type_support.h"
 #include "tutorial_interfaces/srv/detail/add_three_ints__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "tutorial_interfaces/srv/detail/add_three_ints__type_support.h"
+#include "tutorial_interfaces/srv/detail/add_three_ints__functions.h"
 
 #ifdef __cplusplus
 extern "C"

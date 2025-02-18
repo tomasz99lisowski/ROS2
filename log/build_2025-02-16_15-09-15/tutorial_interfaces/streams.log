@@ -1,0 +1,300 @@
+[0.120s] Invoking command in '/home/tomasz/Desktop/sese_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/gs_package:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomasz/Desktop/sese_ws/build/tutorial_interfaces -- -j16 -l16
+[1.993s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.993s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.994s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.994s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.994s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.995s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.995s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.995s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.995s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.995s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.549s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.836s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.840s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.574s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.670s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.706s] -- Added test 'lint_cmake' to check CMake code style
+[3.710s] -- Added test 'xmllint' to check XML markup files
+[3.717s] -- Configuring done (3.5s)
+[3.846s] -- Generating done (0.1s)
+[3.856s] -- Build files have been written to: /home/tomasz/Desktop/sese_ws/build/tutorial_interfaces
+[3.950s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.984s] [  1%] Built target ament_cmake_python_copy_tutorial_interfaces
+[4.460s] [  1%] Built target tutorial_interfaces__rosidl_generator_type_description
+[4.489s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.518s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.595s] running egg_info
+[4.653s] writing tutorial_interfaces.egg-info/PKG-INFO
+[4.654s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[4.655s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[4.824s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[4.831s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[4.895s] [  5%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[5.374s] [  5%] Built target tutorial_interfaces__cpp
+[5.498s] [  7%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__description.c.o[0m
+[5.499s] [  9%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__description.c.o[0m
+[5.501s] [ 11%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.c.o[0m
+[5.501s] [ 12%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o[0m
+[5.502s] [ 14%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o[0m
+[5.504s] [ 16%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[5.504s] [ 18%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o[0m
+[5.505s] [ 20%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[5.508s] [ 22%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__description.c.o[0m
+[5.733s] [ 24%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[5.853s] [ 24%] Built target tutorial_interfaces__rosidl_generator_c
+[5.888s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.889s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.890s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.891s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.898s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.898s] [ 35%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.570s] [ 38%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[6.570s] [ 38%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[6.575s] [ 40%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[6.649s] [ 42%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[6.649s] [ 46%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[6.649s] [ 46%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[6.682s] [ 48%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o[0m
+[6.685s] [ 50%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/sphere__type_support.cpp.o[0m
+[6.685s] [ 51%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o[0m
+[6.746s] [ 55%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[6.746s] [ 55%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o[0m
+[6.755s] [ 59%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[6.755s] [ 59%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[6.915s] [ 59%] Built target tutorial_interfaces__rosidl_typesupport_c
+[6.925s] [ 61%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[6.933s] [ 62%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[6.934s] [ 64%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[6.936s] [ 66%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[6.977s] [ 68%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp.o[0m
+[6.985s] [ 70%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[6.990s] [ 72%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[7.048s] [ 72%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[7.873s] [ 74%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[8.080s] [ 75%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[8.132s] [ 75%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[8.315s] [ 75%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[8.389s] [ 77%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[8.514s] [ 77%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[8.584s] [ 79%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.751s] [ 79%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[8.795s] [ 79%] Built target tutorial_interfaces
+[8.842s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.414s] [ 81%] Built target tutorial_interfaces__py
+[9.452s] [ 87%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c.o[0m
+[9.452s] [ 87%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o[0m
+[9.453s] [ 87%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o[0m
+[9.632s] [ 88%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_py.so[0m
+[9.686s] [ 88%] Built target tutorial_interfaces__rosidl_generator_py
+[9.715s] [ 94%] [32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.715s] [ 94%] [32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[9.715s] [ 94%] [32mBuilding C object CMakeFiles/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.831s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[9.833s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so[0m
+[9.838s] [100%] [32m[1mLinking C shared module rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[9.871s] [100%] Built target tutorial_interfaces_s__rosidl_typesupport_introspection_c
+[9.872s] [100%] Built target tutorial_interfaces_s__rosidl_typesupport_c
+[9.878s] [100%] Built target tutorial_interfaces_s__rosidl_typesupport_fastrtps_c
+[9.894s] Invoked command in '/home/tomasz/Desktop/sese_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/gs_package:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomasz/Desktop/sese_ws/build/tutorial_interfaces -- -j16 -l16
+[10.039s] Invoking command in '/home/tomasz/Desktop/sese_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/gs_package:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomasz/Desktop/sese_ws/build/tutorial_interfaces
+[10.049s] -- Install configuration: ""
+[10.049s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[10.049s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.json
+[10.049s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.json
+[10.050s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.json
+[10.050s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[10.050s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[10.050s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[10.050s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.h
+[10.050s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.c
+[10.050s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.h
+[10.050s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.h
+[10.051s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__description.c
+[10.051s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[10.051s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.h
+[10.051s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[10.051s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[10.052s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.h
+[10.052s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.c
+[10.052s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[10.052s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c
+[10.052s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h
+[10.052s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__description.c
+[10.052s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__description.c
+[10.053s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.h
+[10.053s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c
+[10.053s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.h
+[10.053s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h
+[10.053s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h
+[10.053s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[10.053s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h
+[10.053s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.h
+[10.054s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[10.054s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[10.059s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[10.060s] -- Set non-toolchain portion of runtime path of "/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""
+[10.060s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[10.060s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[10.060s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[10.060s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[10.061s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[10.061s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[10.061s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[10.061s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[10.061s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.061s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[10.062s] -- Set non-toolchain portion of runtime path of "/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[10.062s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[10.062s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[10.062s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[10.062s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp
+[10.062s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp
+[10.062s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp
+[10.063s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.hpp
+[10.063s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.hpp
+[10.063s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[10.063s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.063s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[10.063s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__builder.hpp
+[10.063s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__traits.hpp
+[10.063s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp
+[10.064s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.hpp
+[10.064s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp
+[10.064s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.hpp
+[10.064s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.hpp
+[10.064s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp
+[10.064s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp
+[10.065s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.hpp
+[10.065s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[10.065s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[10.065s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[10.065s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[10.065s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps
+[10.065s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[10.065s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[10.065s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[10.065s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[10.066s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps
+[10.066s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.066s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[10.067s] -- Set non-toolchain portion of runtime path of "/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.067s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[10.067s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[10.067s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[10.067s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[10.067s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[10.068s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[10.068s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.068s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[10.068s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[10.068s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[10.068s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c
+[10.068s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[10.069s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[10.070s] -- Set non-toolchain portion of runtime path of "/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[10.070s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[10.071s] -- Set non-toolchain portion of runtime path of "/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""
+[10.071s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[10.071s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[10.071s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[10.071s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp
+[10.071s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[10.071s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[10.071s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[10.071s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[10.071s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp
+[10.071s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.cpp
+[10.072s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[10.072s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[10.073s] -- Set non-toolchain portion of runtime path of "/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[10.073s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[10.074s] -- Set non-toolchain portion of runtime path of "/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+[10.074s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[10.074s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[10.074s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info
+[10.074s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[10.074s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[10.074s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[10.074s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[10.075s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces
+[10.075s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.075s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv
+[10.075s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/__init__.py
+[10.075s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_add_three_ints_s.c
+[10.075s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_add_three_ints.py
+[10.076s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+[10.076s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[10.076s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/__init__.py
+[10.076s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[10.076s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg
+[10.077s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num.py
+[10.077s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/__init__.py
+[10.077s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num_s.c
+[10.077s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_sphere.py
+[10.077s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_sphere_s.c
+[10.077s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so
+[10.078s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so
+[10.131s] Listing '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces'...
+[10.131s] Compiling '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/__init__.py'...
+[10.131s] Listing '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg'...
+[10.132s] Compiling '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/__init__.py'...
+[10.132s] Compiling '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num.py'...
+[10.132s] Compiling '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_sphere.py'...
+[10.132s] Listing '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv'...
+[10.132s] Compiling '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/__init__.py'...
+[10.132s] Compiling '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_add_three_ints.py'...
+[10.137s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[10.138s] -- Set non-toolchain portion of runtime path of "/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[10.138s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so
+[10.139s] -- Set non-toolchain portion of runtime path of "/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[10.139s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so
+[10.139s] -- Set non-toolchain portion of runtime path of "/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so" to ""
+[10.140s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+[10.140s] -- Set non-toolchain portion of runtime path of "/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""
+[10.140s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+[10.140s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl
+[10.141s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl
+[10.141s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+[10.141s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg
+[10.141s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv
+[10.141s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[10.141s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[10.141s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[10.141s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[10.141s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[10.141s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[10.141s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[10.142s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[10.142s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[10.142s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[10.142s] -- Installing: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[10.142s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[10.142s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake
+[10.142s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[10.143s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[10.143s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.143s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake
+[10.143s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.143s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.143s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[10.143s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.144s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[10.144s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[10.144s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[10.144s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.144s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[10.144s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[10.144s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake
+[10.144s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[10.145s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[10.145s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.145s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.145s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[10.145s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[10.145s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.145s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.145s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[10.145s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[10.145s] -- Up-to-date: /home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[10.148s] Invoked command in '/home/tomasz/Desktop/sese_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/gs_package:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomasz/Desktop/sese_ws/build/tutorial_interfaces
