@@ -1,0 +1,22 @@
+[1.614s] Invoking command in '/home/tomasz/Desktop/sese_ws/src/python_parameters': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/tomasz/Desktop/sese_ws/build/python_parameters/build install --record /home/tomasz/Desktop/sese_ws/build/python_parameters/install.log --single-version-externally-managed install_data
+[1.940s] running egg_info
+[1.964s] writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[1.964s] writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[1.964s] writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[1.965s] writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+[1.965s] writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+[2.016s] reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[2.017s] adding license file 'LICENSE'
+[2.017s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[2.017s] running build
+[2.018s] running build_py
+[2.018s] running install
+[2.024s] running install_lib
+[2.051s] running install_data
+[2.051s] running install_egg_info
+[2.078s] removing '/home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters-0.0.0-py3.12.egg-info' (and everything under it)
+[2.078s] Copying ../../build/python_parameters/python_parameters.egg-info to /home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters-0.0.0-py3.12.egg-info
+[2.079s] running install_scripts
+[2.261s] Installing minimal_param_node script to /home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python_parameters
+[2.262s] writing list of installed files to '/home/tomasz/Desktop/sese_ws/build/python_parameters/install.log'
+[2.317s] Invoked command in '/home/tomasz/Desktop/sese_ws/src/python_parameters' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/tomasz/Desktop/sese_ws/build/python_parameters/build install --record /home/tomasz/Desktop/sese_ws/build/python_parameters/install.log --single-version-externally-managed install_data

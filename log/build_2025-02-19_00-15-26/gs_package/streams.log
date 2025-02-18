@@ -1,0 +1,32 @@
+[1.624s] Invoking command in '/home/tomasz/Desktop/sese_ws/src/gs_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/gs_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gs_package build --build-base /home/tomasz/Desktop/sese_ws/build/gs_package/build install --record /home/tomasz/Desktop/sese_ws/build/gs_package/install.log --single-version-externally-managed install_data
+[1.941s] running egg_info
+[1.965s] writing ../../build/gs_package/gs_package.egg-info/PKG-INFO
+[1.965s] writing dependency_links to ../../build/gs_package/gs_package.egg-info/dependency_links.txt
+[1.965s] writing entry points to ../../build/gs_package/gs_package.egg-info/entry_points.txt
+[1.965s] writing requirements to ../../build/gs_package/gs_package.egg-info/requires.txt
+[1.966s] writing top-level names to ../../build/gs_package/gs_package.egg-info/top_level.txt
+[2.016s] reading manifest file '../../build/gs_package/gs_package.egg-info/SOURCES.txt'
+[2.016s] adding license file 'LICENSE'
+[2.017s] writing manifest file '../../build/gs_package/gs_package.egg-info/SOURCES.txt'
+[2.017s] running build
+[2.017s] running build_py
+[2.017s] copying gs_package/gs_batt_pub.py -> /home/tomasz/Desktop/sese_ws/build/gs_package/build/lib/gs_package
+[2.018s] running install
+[2.024s] running install_lib
+[2.050s] copying /home/tomasz/Desktop/sese_ws/build/gs_package/build/lib/gs_package/gs_batt_pub.py -> /home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages/gs_package
+[2.051s] byte-compiling /home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages/gs_package/gs_batt_pub.py to gs_batt_pub.cpython-312.pyc
+[2.052s]   File "/home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages/gs_package/gs_batt_pub.py", line 33
+[2.052s]     marker.text = f'Voltage: {self.curr_voltage:.2f} V\n 
+[2.052s]                   ^
+[2.052s] SyntaxError: unterminated f-string literal (detected at line 33)
+[2.052s] 
+[2.052s] running install_data
+[2.052s] running install_egg_info
+[2.078s] removing '/home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages/gs_package-0.0.0-py3.12.egg-info' (and everything under it)
+[2.078s] Copying ../../build/gs_package/gs_package.egg-info to /home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages/gs_package-0.0.0-py3.12.egg-info
+[2.079s] running install_scripts
+[2.249s] Installing point script to /home/tomasz/Desktop/sese_ws/install/gs_package/lib/gs_package
+[2.250s] Installing publish script to /home/tomasz/Desktop/sese_ws/install/gs_package/lib/gs_package
+[2.250s] Installing subscribe script to /home/tomasz/Desktop/sese_ws/install/gs_package/lib/gs_package
+[2.250s] writing list of installed files to '/home/tomasz/Desktop/sese_ws/build/gs_package/install.log'
+[2.331s] Invoked command in '/home/tomasz/Desktop/sese_ws/src/gs_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/gs_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gs_package build --build-base /home/tomasz/Desktop/sese_ws/build/gs_package/build install --record /home/tomasz/Desktop/sese_ws/build/gs_package/install.log --single-version-externally-managed install_data
