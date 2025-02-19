@@ -1,0 +1,29 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[31mCMake Error at CMakeLists.txt:16 (find_package):
+  By not providing "Findvizualization_msgs.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "vizualization_msgs", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "vizualization_msgs" with any of the following names:
+
+    vizualization_msgsConfig.cmake
+    vizualization_msgs-config.cmake
+
+  Add the installation prefix of "vizualization_msgs" to CMAKE_PREFIX_PATH or
+  set "vizualization_msgs_DIR" to a directory containing one of the above
+  files.  If "vizualization_msgs" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m
+-- Configuring incomplete, errors occurred!
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

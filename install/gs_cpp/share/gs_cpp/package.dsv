@@ -1,0 +1,8 @@
+source;share/gs_cpp/hook/cmake_prefix_path.ps1
+source;share/gs_cpp/hook/cmake_prefix_path.dsv
+source;share/gs_cpp/hook/cmake_prefix_path.sh
+source;share/gs_cpp/local_setup.bash
+source;share/gs_cpp/local_setup.dsv
+source;share/gs_cpp/local_setup.ps1
+source;share/gs_cpp/local_setup.sh
+source;share/gs_cpp/local_setup.zsh

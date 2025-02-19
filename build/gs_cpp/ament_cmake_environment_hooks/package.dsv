@@ -1,0 +1,4 @@
+source;share/gs_cpp/local_setup.bash
+source;share/gs_cpp/local_setup.dsv
+source;share/gs_cpp/local_setup.sh
+source;share/gs_cpp/local_setup.zsh

@@ -1,0 +1,20 @@
+[100%] Built target publish
+[100%] Built target subscribe
+-- Install configuration: ""
+-- Up-to-date: /home/tomasz/Desktop/sese_ws/install/gs_cpp/lib/gs_cpp/publish
+-- Up-to-date: /home/tomasz/Desktop/sese_ws/install/gs_cpp/lib/gs_cpp/subscribe
+-- Up-to-date: /home/tomasz/Desktop/sese_ws/install/gs_cpp/share/ament_index/resource_index/package_run_dependencies/gs_cpp
+-- Up-to-date: /home/tomasz/Desktop/sese_ws/install/gs_cpp/share/ament_index/resource_index/parent_prefix_path/gs_cpp
+-- Up-to-date: /home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/environment/path.sh
+-- Up-to-date: /home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/environment/path.dsv
+-- Up-to-date: /home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/local_setup.bash
+-- Up-to-date: /home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/local_setup.sh
+-- Up-to-date: /home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/local_setup.zsh
+-- Up-to-date: /home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/local_setup.dsv
+-- Installing: /home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/package.dsv
+-- Up-to-date: /home/tomasz/Desktop/sese_ws/install/gs_cpp/share/ament_index/resource_index/packages/gs_cpp
+-- Up-to-date: /home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/cmake/gs_cppConfig.cmake
+-- Up-to-date: /home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/cmake/gs_cppConfig-version.cmake
+-- Up-to-date: /home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/package.xml

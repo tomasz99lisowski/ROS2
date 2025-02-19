@@ -1,0 +1,36 @@
+[0.011s] Invoking command in '/home/tomasz/Desktop/sese_ws/build/gs_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/gs_package:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tomasz/Desktop/sese_ws/src/gs_cpp -DCMAKE_INSTALL_PREFIX=/home/tomasz/Desktop/sese_ws/install/gs_cpp
+[0.024s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.224s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.247s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.254s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.264s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.323s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.324s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.380s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.432s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.445s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.527s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.527s] -- Configured cppcheck include dirs: 
+[0.527s] -- Configured cppcheck exclude dirs and/or files: 
+[0.528s] -- Added test 'lint_cmake' to check CMake code style
+[0.528s] -- Added test 'uncrustify' to check C / C++ code style
+[0.529s] -- Configured uncrustify additional arguments: 
+[0.529s] -- Added test 'xmllint' to check XML markup files
+[0.529s] -- Configuring done (0.5s)
+[0.533s] [31mCMake Error at CMakeLists.txt:18 (add_executable):
+[0.533s]   Cannot find source file:
+[0.533s] 
+[0.533s]     src/subscriber.cpp
+[0.533s] 
+[0.533s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[0.533s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[0.533s]   .f95 .f03 .hip .ispc
+[0.533s] 
+[0.534s] [0m
+[0.534s] [31mCMake Error at CMakeLists.txt:18 (add_executable):
+[0.534s]   No SOURCES given to target: subscribe
+[0.534s] 
+[0.534s] [0m
+[0.534s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.541s] Invoked command in '/home/tomasz/Desktop/sese_ws/build/gs_cpp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/gs_package:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tomasz/Desktop/sese_ws/src/gs_cpp -DCMAKE_INSTALL_PREFIX=/home/tomasz/Desktop/sese_ws/install/gs_cpp
