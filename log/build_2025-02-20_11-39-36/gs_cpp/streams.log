@@ -1,0 +1,28 @@
+[0.036s] Invoking command in '/home/tomasz/Desktop/sese_ws/build/gs_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/gs_package:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomasz/Desktop/sese_ws/build/gs_cpp -- -j16 -l16
+[0.228s] [ 50%] Built target subscribe
+[0.253s] [ 75%] [32mBuilding CXX object CMakeFiles/publish.dir/src/gs_publisher.cpp.o[0m
+[5.485s] [01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_publisher.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::[01;32m[KMinimalPublisher[m[K()[m[K’:
+[5.485s] [01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_publisher.cpp:24:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat32[m[K’ is not a member of ‘[01m[Kvisualization_msgs::msg[m[K’
+[5.485s]    24 | ublisher_ = this->create_publisher<visualization_msgs::msg::[01;31m[Kfloat32[m[K>("topic", 10);
+[5.485s]       |                                                             [01;31m[K^~~~~~~[m[K
+[5.486s] 
+[5.486s] [01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_publisher.cpp:24:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_publisher<<expression error> >(const char [6], int)[m[K’
+[5.486s]    24 | _ = [01;31m[Kthis->create_publisher<visualization_msgs::msg::float32>("topic", 10)[m[K;
+[5.486s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[5.486s] 
+[5.486s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[5.486s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[5.487s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[5.487s]                  from [01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_publisher.cpp:5[m[K:
+[5.487s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[5.487s]   197 |   [01;36m[Kcreate_publisher[m[K(
+[5.487s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[5.487s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.487s] [01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_publisher.cpp:24:74:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.487s]    24 | _ = [01;31m[Kthis->create_publisher<visualization_msgs::msg::float32>("topic", 10)[m[K;
+[5.488s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[5.488s] 
+[6.327s] gmake[2]: *** [CMakeFiles/publish.dir/build.make:76: CMakeFiles/publish.dir/src/gs_publisher.cpp.o] Error 1
+[6.328s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publish.dir/all] Error 2
+[6.328s] gmake: *** [Makefile:146: all] Error 2
+[6.332s] Invoked command in '/home/tomasz/Desktop/sese_ws/build/gs_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/gs_package:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomasz/Desktop/sese_ws/build/gs_cpp -- -j16 -l16

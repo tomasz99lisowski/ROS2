@@ -1,0 +1,36 @@
+[0.036s] Invoking command in '/home/tomasz/Desktop/sese_ws/build/gs_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/gs_package:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomasz/Desktop/sese_ws/build/gs_cpp -- -j16 -l16
+[0.113s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.761s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.838s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.860s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.891s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.928s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.090s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.096s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.272s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.443s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.478s] -- Found visualization_msgs: 5.3.5 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.674s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.933s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.933s] -- Configured cppcheck include dirs: 
+[1.933s] -- Configured cppcheck exclude dirs and/or files: 
+[1.934s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.934s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.935s] -- Added test 'lint_cmake' to check CMake code style
+[1.936s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.939s] -- Added test 'uncrustify' to check C / C++ code style
+[1.939s] -- Configured uncrustify additional arguments: 
+[1.940s] -- Added test 'xmllint' to check XML markup files
+[1.942s] -- Configuring done (1.8s)
+[1.981s] -- Generating done (0.0s)
+[1.995s] -- Build files have been written to: /home/tomasz/Desktop/sese_ws/build/gs_cpp
+[2.104s] [ 25%] [32mBuilding CXX object CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.o[0m
+[2.131s] [ 75%] Built target publish
+[2.733s] [01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kvisualization_msgs/msg/marker.hpp: No such file or directory
+[2.734s]     7 | #include [01;31m[K"visualization_msgs/msg/marker.hpp"[m[K
+[2.734s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.734s] compilation terminated.
+[2.748s] gmake[2]: *** [CMakeFiles/subscribe.dir/build.make:76: CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.o] Error 1
+[2.748s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/subscribe.dir/all] Error 2
+[2.749s] gmake: *** [Makefile:146: all] Error 2
+[2.756s] Invoked command in '/home/tomasz/Desktop/sese_ws/build/gs_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/gs_package:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomasz/Desktop/sese_ws/build/gs_cpp -- -j16 -l16

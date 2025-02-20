@@ -247,29 +247,29 @@ src/gs_publisher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/publish.dir/build.make CMakeFiles/publish.dir/src/gs_publisher.cpp.s
 .PHONY : src/gs_publisher.cpp.s
 
-src/gs_subscriber.o: src/gs_subscriber.cpp.o
-.PHONY : src/gs_subscriber.o
+src/gs_transmitter.o: src/gs_transmitter.cpp.o
+.PHONY : src/gs_transmitter.o
 
 # target to build an object file
-src/gs_subscriber.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscribe.dir/build.make CMakeFiles/subscribe.dir/src/gs_subscriber.cpp.o
-.PHONY : src/gs_subscriber.cpp.o
+src/gs_transmitter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscribe.dir/build.make CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.o
+.PHONY : src/gs_transmitter.cpp.o
 
-src/gs_subscriber.i: src/gs_subscriber.cpp.i
-.PHONY : src/gs_subscriber.i
+src/gs_transmitter.i: src/gs_transmitter.cpp.i
+.PHONY : src/gs_transmitter.i
 
 # target to preprocess a source file
-src/gs_subscriber.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscribe.dir/build.make CMakeFiles/subscribe.dir/src/gs_subscriber.cpp.i
-.PHONY : src/gs_subscriber.cpp.i
+src/gs_transmitter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscribe.dir/build.make CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.i
+.PHONY : src/gs_transmitter.cpp.i
 
-src/gs_subscriber.s: src/gs_subscriber.cpp.s
-.PHONY : src/gs_subscriber.s
+src/gs_transmitter.s: src/gs_transmitter.cpp.s
+.PHONY : src/gs_transmitter.s
 
 # target to generate assembly for a file
-src/gs_subscriber.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscribe.dir/build.make CMakeFiles/subscribe.dir/src/gs_subscriber.cpp.s
-.PHONY : src/gs_subscriber.cpp.s
+src/gs_transmitter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscribe.dir/build.make CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.s
+.PHONY : src/gs_transmitter.cpp.s
 
 # Help Target
 help:
@@ -291,9 +291,9 @@ help:
 	@echo "... src/gs_publisher.o"
 	@echo "... src/gs_publisher.i"
 	@echo "... src/gs_publisher.s"
-	@echo "... src/gs_subscriber.o"
-	@echo "... src/gs_subscriber.i"
-	@echo "... src/gs_subscriber.s"
+	@echo "... src/gs_transmitter.o"
+	@echo "... src/gs_transmitter.i"
+	@echo "... src/gs_transmitter.s"
 .PHONY : help
 
 

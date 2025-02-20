@@ -1,0 +1,76 @@
+[0.039s] Invoking command in '/home/tomasz/Desktop/sese_ws/build/gs_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/gs_package:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomasz/Desktop/sese_ws/build/gs_cpp -- -j16 -l16
+[0.117s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.773s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.852s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.875s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.907s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.947s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.112s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.118s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.298s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.471s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.506s] -- Found visualization_msgs: 5.3.5 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.706s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.965s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.965s] -- Configured cppcheck include dirs: 
+[1.965s] -- Configured cppcheck exclude dirs and/or files: 
+[1.966s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.966s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.967s] -- Added test 'lint_cmake' to check CMake code style
+[1.968s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.971s] -- Added test 'uncrustify' to check C / C++ code style
+[1.971s] -- Configured uncrustify additional arguments: 
+[1.972s] -- Added test 'xmllint' to check XML markup files
+[1.974s] -- Configuring done (1.9s)
+[2.015s] -- Generating done (0.0s)
+[2.029s] -- Build files have been written to: /home/tomasz/Desktop/sese_ws/build/gs_cpp
+[2.162s] [ 50%] Built target publish
+[2.163s] [ 75%] [32mBuilding CXX object CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.o[0m
+[7.326s] [01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp:39:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KMinimalPublisher[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[7.326s]    39 |   [01;31m[KMinimalPublisher[m[K()
+[7.326s]       |   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[7.335s] [01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp:[m[K In member function ‘[01m[Kint MinimalTransmitter::[01;32m[KMinimalPublisher[m[K()[m[K’:
+[7.335s] [01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp:40:5:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+[7.335s]    40 |   : [01;31m[KNode[m[K("minimal_publisher"), count_(0)
+[7.335s]       |     [01;31m[K^~~~[m[K
+[7.345s] [01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp:80:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[7.345s]    80 |   [01;35m[K}[m[K
+[7.345s]       |   [01;35m[K^[m[K
+[8.607s] In file included from [01m[K/usr/include/c++/13/bits/stl_tempbuf.h:61[m[K,
+[8.607s]                  from [01m[K/usr/include/c++/13/memory:66[m[K,
+[8.607s]                  from [01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp:2[m[K:
+[8.607s] /usr/include/c++/13/bits/stl_construct.h: In instantiation of ‘[01m[Kvoid std::[01;32m[K_Construct[m[K(_Tp*, _Args&& ...) [35m[K[with _Tp = MinimalTransmitter; _Args = {}][m[K[m[K’:
+[8.607s] [01m[K/usr/include/c++/13/bits/alloc_traits.h:661:19:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<void> >::[01;32m[Kconstruct[m[K(allocator_type&, _Up*, _Args&& ...) [35m[K[with _Up = MinimalTransmitter; _Args = {}; allocator_type = std::allocator<void>][m[K[m[K’
+[8.607s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:604:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::[01;32m[K_Sp_counted_ptr_inplace[m[K(_Alloc, _Args&& ...) [35m[K[with _Args = {}; _Tp = MinimalTransmitter; _Alloc = std::allocator<void>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[8.607s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:971:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::[01;32m[K__shared_count[m[K(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [35m[K[with _Tp = MinimalTransmitter; _Alloc = std::allocator<void>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[8.608s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:1712:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::[01;32m[K__shared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {}; _Tp = MinimalTransmitter; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K[m[K’
+[8.608s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:464:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::[01;32m[Kshared_ptr[m[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [35m[K[with _Alloc = std::allocator<void>; _Args = {}; _Tp = MinimalTransmitter][m[K[m[K’
+[8.608s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1009:14:[m[K   required from ‘[01m[Kstd::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...) [35m[K[with _Tp = MinimalTransmitter; _Args = {}; typename enable_if<(! is_array< <template-parameter-1-1> >::value), _Tp>::type = MinimalTransmitter][m[K[m[K’
+[8.608s] [01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp:92:52:[m[K   required from here
+[8.608s] [01m[K/usr/include/c++/13/bits/stl_construct.h:119:7:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[KMinimalTransmitter::[01;32m[KMinimalTransmitter[m[K()[m[K’
+[8.608s]   119 |       [01;31m[K::new((void*)__p) _Tp(std::forward<_Args>(__args)...)[m[K;
+[8.608s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.608s] [01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp:36:7:[m[K [01;36m[Knote: [m[K‘[01m[KMinimalTransmitter::[01;32m[KMinimalTransmitter[m[K()[m[K’ is implicitly deleted because the default definition would be ill-formed:
+[8.608s]    36 | class [01;36m[KMinimalTransmitter[m[K : public rclcpp::Node
+[8.608s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.608s] [01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp:36:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+[8.609s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[8.609s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[8.609s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[8.609s]                  from [01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp:5[m[K:
+[8.609s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const rclcpp::Node&, const std::string&)[m[K’
+[8.609s]  1629 |   [01;36m[KNode[m[K(
+[8.609s]       |   [01;36m[K^~~~[m[K
+[8.609s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[8.609s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const std::string&, const std::string&, const rclcpp::NodeOptions&)[m[K’
+[8.609s]   103 |   explicit [01;36m[KNode[m[K(
+[8.609s]       |            [01;36m[K^~~~[m[K
+[8.609s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[8.609s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const std::string&, const rclcpp::NodeOptions&)[m[K’
+[8.609s]    91 |   explicit [01;36m[KNode[m[K(
+[8.609s]       |            [01;36m[K^~~~[m[K
+[8.610s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[9.804s] gmake[2]: *** [CMakeFiles/subscribe.dir/build.make:76: CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.o] Error 1
+[9.804s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/subscribe.dir/all] Error 2
+[9.805s] gmake: *** [Makefile:146: all] Error 2
+[9.807s] Invoked command in '/home/tomasz/Desktop/sese_ws/build/gs_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/gs_package:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomasz/Desktop/sese_ws/build/gs_cpp -- -j16 -l16

@@ -2,3 +2,4 @@
 point = gs_package.gs_point:main
 publish = gs_package.gs_batt_pub:main
 subscribe = gs_package.gs_batt_sub:main
+transmit = gs_package.gs_transmitter:main

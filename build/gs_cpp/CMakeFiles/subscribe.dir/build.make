@@ -69,36 +69,36 @@ include CMakeFiles/subscribe.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/subscribe.dir/flags.make
 
-CMakeFiles/subscribe.dir/src/gs_subscriber.cpp.o: CMakeFiles/subscribe.dir/flags.make
-CMakeFiles/subscribe.dir/src/gs_subscriber.cpp.o: /home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_subscriber.cpp
-CMakeFiles/subscribe.dir/src/gs_subscriber.cpp.o: CMakeFiles/subscribe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tomasz/Desktop/sese_ws/build/gs_cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/subscribe.dir/src/gs_subscriber.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/subscribe.dir/src/gs_subscriber.cpp.o -MF CMakeFiles/subscribe.dir/src/gs_subscriber.cpp.o.d -o CMakeFiles/subscribe.dir/src/gs_subscriber.cpp.o -c /home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_subscriber.cpp
+CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.o: CMakeFiles/subscribe.dir/flags.make
+CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.o: /home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp
+CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.o: CMakeFiles/subscribe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tomasz/Desktop/sese_ws/build/gs_cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.o -MF CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.o.d -o CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.o -c /home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp
 
-CMakeFiles/subscribe.dir/src/gs_subscriber.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/subscribe.dir/src/gs_subscriber.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_subscriber.cpp > CMakeFiles/subscribe.dir/src/gs_subscriber.cpp.i
+CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp > CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.i
 
-CMakeFiles/subscribe.dir/src/gs_subscriber.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/subscribe.dir/src/gs_subscriber.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_subscriber.cpp -o CMakeFiles/subscribe.dir/src/gs_subscriber.cpp.s
+CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp -o CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.s
 
 # Object files for target subscribe
 subscribe_OBJECTS = \
-"CMakeFiles/subscribe.dir/src/gs_subscriber.cpp.o"
+"CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.o"
 
 # External object files for target subscribe
 subscribe_EXTERNAL_OBJECTS =
 
-subscribe: CMakeFiles/subscribe.dir/src/gs_subscriber.cpp.o
+subscribe: CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.o
 subscribe: CMakeFiles/subscribe.dir/build.make
 subscribe: /opt/ros/jazzy/lib/librclcpp.so
-subscribe: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
-subscribe: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
-subscribe: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-subscribe: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-subscribe: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so
-subscribe: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_py.so
+subscribe: /opt/ros/jazzy/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
+subscribe: /opt/ros/jazzy/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so
+subscribe: /opt/ros/jazzy/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so
+subscribe: /opt/ros/jazzy/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so
+subscribe: /opt/ros/jazzy/lib/libvisualization_msgs__rosidl_typesupport_cpp.so
+subscribe: /opt/ros/jazzy/lib/libvisualization_msgs__rosidl_generator_py.so
 subscribe: /opt/ros/jazzy/lib/liblibstatistics_collector.so
 subscribe: /opt/ros/jazzy/lib/librcl.so
 subscribe: /opt/ros/jazzy/lib/librmw_implementation.so
@@ -118,13 +118,6 @@ subscribe: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_cpp.so
 subscribe: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_py.so
 subscribe: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_c.so
 subscribe: /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_c.so
-subscribe: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so
-subscribe: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_c.so
-subscribe: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so
-subscribe: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so
-subscribe: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_cpp.so
-subscribe: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_c.so
-subscribe: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
 subscribe: /opt/ros/jazzy/lib/librcl_yaml_param_parser.so
 subscribe: /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
 subscribe: /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -144,7 +137,34 @@ subscribe: /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_c.so
 subscribe: /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_generator_c.so
 subscribe: /opt/ros/jazzy/lib/libtracetools.so
 subscribe: /opt/ros/jazzy/lib/librcl_logging_interface.so
+subscribe: /opt/ros/jazzy/lib/libvisualization_msgs__rosidl_typesupport_c.so
+subscribe: /opt/ros/jazzy/lib/libvisualization_msgs__rosidl_generator_c.so
+subscribe: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
+subscribe: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+subscribe: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+subscribe: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+subscribe: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+subscribe: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+subscribe: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so
+subscribe: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+subscribe: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so
+subscribe: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+subscribe: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_c.so
+subscribe: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_typesupport_c.so
+subscribe: /opt/ros/jazzy/lib/libsensor_msgs__rosidl_generator_c.so
+subscribe: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+subscribe: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so
+subscribe: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+subscribe: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_cpp.so
+subscribe: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
+subscribe: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
+subscribe: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+subscribe: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+subscribe: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so
+subscribe: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_py.so
+subscribe: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_c.so
 subscribe: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so
+subscribe: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
 subscribe: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
 subscribe: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
 subscribe: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so
@@ -160,7 +180,9 @@ subscribe: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so
 subscribe: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 subscribe: /opt/ros/jazzy/lib/librosidl_typesupport_cpp.so
 subscribe: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_py.so
+subscribe: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_c.so
 subscribe: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+subscribe: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
 subscribe: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 subscribe: /opt/ros/jazzy/lib/librosidl_typesupport_c.so
 subscribe: /opt/ros/jazzy/lib/librcpputils.so

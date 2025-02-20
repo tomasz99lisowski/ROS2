@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_subscriber.cpp" "CMakeFiles/subscribe.dir/src/gs_subscriber.cpp.o" "gcc" "CMakeFiles/subscribe.dir/src/gs_subscriber.cpp.o.d"
+  "/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp" "CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.o" "gcc" "CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

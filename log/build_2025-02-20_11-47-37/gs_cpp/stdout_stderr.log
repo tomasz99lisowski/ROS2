@@ -1,0 +1,10 @@
+[ 50%] Built target subscribe
+[ 75%] [32mBuilding CXX object CMakeFiles/publish.dir/src/gs_publisher.cpp.o[0m
+[01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_publisher.cpp:[m[K In lambda function:
+[01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_publisher.cpp:30:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpubliser_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_[m[K’?
+   30 |         [01;31m[Kpubliser_[m[K.publish(msg);
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[Kpublisher_[m[K
+gmake[2]: *** [CMakeFiles/publish.dir/build.make:76: CMakeFiles/publish.dir/src/gs_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publish.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

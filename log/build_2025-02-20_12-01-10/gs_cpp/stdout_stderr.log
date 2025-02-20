@@ -1,0 +1,13 @@
+[ 50%] Built target publish
+[ 75%] [32mBuilding CXX object CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.o[0m
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp:5[m[K:
+[01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp:[m[K In lambda function:
+[01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp:27:71:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kcurr_voltage[m[K’, which is of non-class type ‘[01m[Kfloat[m[K’
+   27 |         RCLCPP_INFO(this->get_logger(), "I heard: '%s'", curr_voltage.[01;31m[Kc_str[m[K());
+      |                                                                       [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/subscribe.dir/build.make:76: CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/subscribe.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

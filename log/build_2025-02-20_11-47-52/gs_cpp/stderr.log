@@ -1,0 +1,7 @@
+[01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_publisher.cpp:[m[K In lambda function:
+[01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_publisher.cpp:30:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing rclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > >::SharedPtr = class std::shared_ptr<rclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpublish[m[K’
+   30 |         publisher_.[01;31m[Kpublish[m[K(msg);
+      |                    [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/publish.dir/build.make:76: CMakeFiles/publish.dir/src/gs_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publish.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

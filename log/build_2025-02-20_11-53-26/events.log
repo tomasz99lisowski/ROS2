@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.000475] (-) JobUnselected: {'identifier': 'gs_package'}
+[0.000577] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000620] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000655] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000687] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.000717] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000750] (gs_cpp) JobQueued: {'identifier': 'gs_cpp', 'dependencies': OrderedDict()}
+[0.000790] (gs_cpp) JobStarted: {'identifier': 'gs_cpp'}
+[0.029400] (gs_cpp) JobProgress: {'identifier': 'gs_cpp', 'progress': 'cmake'}
+[0.031154] (gs_cpp) JobProgress: {'identifier': 'gs_cpp', 'progress': 'build'}
+[0.032726] (gs_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tomasz/Desktop/sese_ws/build/gs_cpp', '--', '-j16', '-l16'], 'cwd': '/home/tomasz/Desktop/sese_ws/build/gs_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tomasz', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_wait_set/lib:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_composition/lib:/home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tomasz', 'OLDPWD': '/home/tomasz', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2701', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/tomasz/Desktop/sese_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tomasz', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tomasz', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/tomasz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tomasz:@/tmp/.ICE-unix/2656,unix/tomasz:/tmp/.ICE-unix/2656', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/76ee8c9f_f367_414b_bd82_73c80b0b1e79', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.139', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/gs_package:/home/tomasz/Desktop/sese_ws/install/gs_cpp:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_wait_set:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_multithreaded_executor:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_timer:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_composition:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_cbg_executor:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_async_client:/home/tomasz/Desktop/sese_ws/install/custom_action_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tomasz/Desktop/sese_ws/build/gs_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tomasz/Desktop/sese_ws/install/py_srvcli/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/install/py_pubsub/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/install/my_package/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_executors:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces:/home/tomasz/Desktop/sese_ws/install/gs_cpp:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_wait_set:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_multithreaded_executor:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_timer:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_composition:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_cbg_executor:/home/tomasz/Desktop/sese_ws/install/examples_rclcpp_async_client:/home/tomasz/Desktop/sese_ws/install/custom_action_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/gs_package:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy'}), 'shell': False}
+[0.096799] (-) TimerEvent: {}
+[0.198130] (-) TimerEvent: {}
+[0.245900] (gs_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/publish.dir/src/gs_publisher.cpp.o\x1b[0m\n'}
+[0.268286] (gs_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.o\x1b[0m\n'}
+[0.298317] (-) TimerEvent: {}
+[0.398877] (-) TimerEvent: {}
+[0.499355] (-) TimerEvent: {}
+[0.599849] (-) TimerEvent: {}
+[0.700295] (-) TimerEvent: {}
+[0.800712] (-) TimerEvent: {}
+[0.901148] (-) TimerEvent: {}
+[1.001625] (-) TimerEvent: {}
+[1.102288] (-) TimerEvent: {}
+[1.202722] (-) TimerEvent: {}
+[1.303329] (-) TimerEvent: {}
+[1.403882] (-) TimerEvent: {}
+[1.504493] (-) TimerEvent: {}
+[1.604954] (-) TimerEvent: {}
+[1.705638] (-) TimerEvent: {}
+[1.806070] (-) TimerEvent: {}
+[1.906728] (-) TimerEvent: {}
+[2.007231] (-) TimerEvent: {}
+[2.107700] (-) TimerEvent: {}
+[2.208129] (-) TimerEvent: {}
+[2.308551] (-) TimerEvent: {}
+[2.409061] (-) TimerEvent: {}
+[2.509514] (-) TimerEvent: {}
+[2.609934] (-) TimerEvent: {}
+[2.710430] (-) TimerEvent: {}
+[2.810880] (-) TimerEvent: {}
+[2.911369] (-) TimerEvent: {}
+[3.011896] (-) TimerEvent: {}
+[3.112594] (-) TimerEvent: {}
+[3.213085] (-) TimerEvent: {}
+[3.313663] (-) TimerEvent: {}
+[3.414248] (-) TimerEvent: {}
+[3.514736] (-) TimerEvent: {}
+[3.615143] (-) TimerEvent: {}
+[3.715505] (-) TimerEvent: {}
+[3.815850] (-) TimerEvent: {}
+[3.916196] (-) TimerEvent: {}
+[4.016523] (-) TimerEvent: {}
+[4.116830] (-) TimerEvent: {}
+[4.217143] (-) TimerEvent: {}
+[4.317454] (-) TimerEvent: {}
+[4.417755] (-) TimerEvent: {}
+[4.518053] (-) TimerEvent: {}
+[4.618386] (-) TimerEvent: {}
+[4.718662] (-) TimerEvent: {}
+[4.815829] (gs_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp:39:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.816074] (gs_cpp) StderrLine: {'line': b'   39 |   \x1b[01;31m\x1b[KMinimalPublisher\x1b[m\x1b[K()\n'}
+[4.816267] (gs_cpp) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.818739] (-) TimerEvent: {}
+[4.819878] (gs_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint MinimalTransmitter::\x1b[01;32m\x1b[KMinimalPublisher\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.820034] (gs_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp:40:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Konly constructors take member initializers\n'}
+[4.820117] (gs_cpp) StderrLine: {'line': b'   40 |   : \x1b[01;31m\x1b[KNode\x1b[m\x1b[K("minimal_publisher"), count_(0)\n'}
+[4.820212] (gs_cpp) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.825547] (gs_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp:80:3:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.825696] (gs_cpp) StderrLine: {'line': b'   80 |   \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[4.825774] (gs_cpp) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.833965] (gs_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.834173] (gs_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp:92:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.834290] (gs_cpp) StderrLine: {'line': b'   92 |   rclcpp::spin(std::make_shared<\x1b[01;31m\x1b[KMinimalPublisher\x1b[m\x1b[K>());\n'}
+[4.834427] (gs_cpp) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.834507] (gs_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp:92:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.834578] (gs_cpp) StderrLine: {'line': b'   92 |   rclcpp::spin(\x1b[01;31m\x1b[Kstd::make_shared<MinimalPublisher>()\x1b[m\x1b[K);\n'}
+[4.834645] (gs_cpp) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[4.834712] (gs_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/memory:80\x1b[m\x1b[K,\n'}
+[4.834776] (gs_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp:2\x1b[m\x1b[K:\n'}
+[4.834841] (gs_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::\x1b[01;32m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.834911] (gs_cpp) StderrLine: {'line': b' 1005 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[4.834975] (gs_cpp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.835054] (gs_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.835135] (gs_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_transmitter.cpp:92:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.835208] (gs_cpp) StderrLine: {'line': b'   92 |   rclcpp::spin(\x1b[01;31m\x1b[Kstd::make_shared<MinimalPublisher>()\x1b[m\x1b[K);\n'}
+[4.835269] (gs_cpp) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[4.918855] (-) TimerEvent: {}
+[5.019166] (-) TimerEvent: {}
+[5.119446] (-) TimerEvent: {}
+[5.219762] (-) TimerEvent: {}
+[5.320228] (-) TimerEvent: {}
+[5.420664] (-) TimerEvent: {}
+[5.521012] (-) TimerEvent: {}
+[5.621357] (-) TimerEvent: {}
+[5.721858] (-) TimerEvent: {}
+[5.822202] (-) TimerEvent: {}
+[5.922621] (-) TimerEvent: {}
+[6.022994] (-) TimerEvent: {}
+[6.123461] (-) TimerEvent: {}
+[6.223703] (-) TimerEvent: {}
+[6.323936] (-) TimerEvent: {}
+[6.424203] (-) TimerEvent: {}
+[6.524460] (-) TimerEvent: {}
+[6.560287] (gs_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable publish\x1b[0m\n'}
+[6.624583] (-) TimerEvent: {}
+[6.705610] (gs_cpp) StdoutLine: {'line': b'[ 75%] Built target publish\n'}
+[6.724659] (-) TimerEvent: {}
+[6.824861] (-) TimerEvent: {}
+[6.925156] (-) TimerEvent: {}
+[6.962514] (gs_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/subscribe.dir/build.make:76: CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.o] Error 1\n'}
+[6.962801] (gs_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/subscribe.dir/all] Error 2\n'}
+[6.963111] (gs_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.965745] (gs_cpp) CommandEnded: {'returncode': 2}
+[6.974166] (gs_cpp) JobEnded: {'identifier': 'gs_cpp', 'rc': 2}
+[6.985375] (-) EventReactorShutdown: {}

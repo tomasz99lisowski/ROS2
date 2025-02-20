@@ -14,10 +14,13 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(visualization_msgs REQUIRED)
+
 add_executable(publish src/gs_publisher.cpp)
-ament_target_dependencies(publish rclcpp std_msgs visualization_msgs)
-add_executable(subscribe src/gs_subscriber.cpp)
-ament_target_dependencies(subscribe rclcpp std_msgs)
+ament_target_dependencies(publish rclcpp std_msgs)
+
+add_executable(subscribe src/gs_transmitter.cpp)
+ament_target_dependencies(subscribe rclcpp std_msgs visualization_msgs)
+
 install(TARGETS
   publish
   subscribe

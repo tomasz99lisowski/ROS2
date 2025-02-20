@@ -16,6 +16,7 @@ gs_package/gs_north.py
 gs_package/gs_point.py
 gs_package/gs_publisher.py
 gs_package/gs_subscriber.py
+gs_package/gs_transmitter.py
 launch/vis.launch.py
 launch/vol.launch.py
 resource/gs_package

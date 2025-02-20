@@ -1,0 +1,43 @@
+[01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_publisher.cpp:36:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KFloat32[m[K’?
+   36 |   rclcpp::Publisher<std_msgs::msg::[01;31m[Kfloat32[m[K>::SharedPtr publisher_;
+      |                                    [01;31m[K^~~~~~~[m[K
+      |                                    [32m[KFloat32[m[K
+[01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_publisher.cpp:36:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   36 |   rclcpp::Publisher<std_msgs::msg::float32[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                           [01;31m[K^[m[K
+[01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_publisher.cpp:36:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   36 |   rclcpp::Publisher<std_msgs::msg::float32>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                              [01;31m[K^~~~~~~~~[m[K
+      |                                                       [32m[K;[m[K
+[01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_publisher.cpp:36:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   36 |   rclcpp::Publisher<std_msgs::msg::float32>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                        [01;31m[K^~~~~~~~~~[m[K
+      |                                                        [32m[Krmw_publisher_t[m[K
+[01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_publisher.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::[01;32m[KMinimalPublisher[m[K()[m[K’:
+[01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_publisher.cpp:24:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   24 |     [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::float32>("topic", 10);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_publisher.cpp:24:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KFloat32[m[K’?
+   24 |     publisher_ = this->create_publisher<std_msgs::msg::[01;31m[Kfloat32[m[K>("topic", 10);
+      |                                                        [01;31m[K^~~~~~~[m[K
+      |                                                        [32m[KFloat32[m[K
+[01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_publisher.cpp:24:64:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_publisher<<expression error> >(const char [6], int)[m[K’
+   24 |  publisher_ = [01;31m[Kthis->create_publisher<std_msgs::msg::float32>("topic", 10)[m[K;
+      |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_publisher.cpp:5[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  197 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tomasz/Desktop/sese_ws/src/gs_cpp/src/gs_publisher.cpp:24:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   24 |  publisher_ = [01;31m[Kthis->create_publisher<std_msgs::msg::float32>("topic", 10)[m[K;
+      |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/publish.dir/build.make:76: CMakeFiles/publish.dir/src/gs_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publish.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

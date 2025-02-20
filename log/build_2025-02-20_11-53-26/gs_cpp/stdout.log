@@ -1,0 +1,4 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/publish.dir/src/gs_publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable publish[0m
+[ 75%] Built target publish

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/subscribe.dir/src/gs_subscriber.cpp.o"
-  "CMakeFiles/subscribe.dir/src/gs_subscriber.cpp.o.d"
+  "CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.o"
+  "CMakeFiles/subscribe.dir/src/gs_transmitter.cpp.o.d"
   "subscribe"
   "subscribe.pdb"
 )
