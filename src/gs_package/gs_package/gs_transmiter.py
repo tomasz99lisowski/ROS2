@@ -10,7 +10,7 @@ class FloatTransmitter(Node):
 
 
     def __init__(self):
-        super().__init__('gs_transmitter')
+        super().__init__('gs_transmiter')
         self.curr_voltage = 0.0
         self.curr_amperage = 0.0
         self.marker_count = 0
