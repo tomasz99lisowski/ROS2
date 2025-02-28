@@ -27,6 +27,6 @@ Below is a brief description of each part of the repository:
         Contains the written scripts.
 # What is working right now?
 
-The repository contains code that enables streaming from a camera connected to the same network. The feed can be viewed both through a dedicated subscriber and in the Rviz application.
+The repository contains code that enables streaming from a camera connected to the same network. The feed can be viewed both through a dedicated subscriber and in the Rviz application. Repo contains working voltage and amperage transmiter (transmiting data from float32 to Rivz Marker data) and proper visualization of orientation of ASV to the north.
 
 # 
