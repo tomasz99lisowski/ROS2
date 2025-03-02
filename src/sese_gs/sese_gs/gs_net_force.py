@@ -51,11 +51,18 @@ class Arrows(Node):
         # Thruster 2 = 0.225 0.4 -0.19 0 0 0.785
         # Thruster 3 = -0.225 -0.4 -0.19 0 0 0.785
         # Thruster 4 = 0.225 -0.4 -0.19 0 0 -0.785
-        self.initialize_marker(self.marker1, 0.01, self.ARROW_Y_SCALE, self.ARROW_Z_SCALE, -2.0, 2.0, self.THRUSTERS_Z_POSITION, 0, 0, 45)
-        self.initialize_marker(self.marker2, 0.01, self.ARROW_Y_SCALE, self.ARROW_Z_SCALE, 2.0, 2.0, self.THRUSTERS_Z_POSITION, 0, 0, 135)
-        self.initialize_marker(self.marker3, 0.01, self.ARROW_Y_SCALE, self.ARROW_Z_SCALE, -2.0, -2.0, self.THRUSTERS_Z_POSITION, 0, 0, 225)
-        self.initialize_marker(self.marker4, 0.01, self.ARROW_Y_SCALE, self.ARROW_Z_SCALE, 2.0, -2.0, self.THRUSTERS_Z_POSITION, 0, 0, 315)
-        self.initialize_marker(self.stiff_marker, 0.01, self.ARROW_Y_SCALE, self.ARROW_Z_SCALE, 0.0, 0.0, self.THRUSTERS_Z_POSITION, 0, 0, 0)
+        self.initialize_marker(self.marker1, 1.0, self.ARROW_Y_SCALE, self.ARROW_Z_SCALE, 2.0, 2.0, self.THRUSTERS_Z_POSITION, 0, 0, 45)
+        self.initialize_marker(self.marker2, 1.0, self.ARROW_Y_SCALE, self.ARROW_Z_SCALE, -2.0, 2.0, self.THRUSTERS_Z_POSITION, 0, 0, 135)
+        self.initialize_marker(self.marker3, 1.0, self.ARROW_Y_SCALE, self.ARROW_Z_SCALE, -2.0, -2.0, self.THRUSTERS_Z_POSITION, 0, 0, 225)
+        self.initialize_marker(self.marker4, 1.0, self.ARROW_Y_SCALE, self.ARROW_Z_SCALE, 2.0, -2.0, self.THRUSTERS_Z_POSITION, 0, 0, 315)
+
+
+
+
+        self.initialize_stiff_marker(self.stiff_marker)
+
+        self.set_color(self.stiff_marker, 0.0, 0.0, 1.0)
+        
 
         self.marker_array.markers.append(self.marker1)
         self.marker_array.markers.append(self.marker2)
@@ -98,15 +105,15 @@ class Arrows(Node):
         Default initialization for thruster marker.
         """
        
-        marker.header.frame_id = 'map'
+        marker.header.frame_id = 'base_link'
         marker.header.stamp = self.get_clock().now().to_msg()
         marker.type = marker.ARROW
         marker.id = self.id
         self.id += 1
 
-        marker.scale.x = 0.01 
-        marker.scale.y = 0.01 
-        marker.scale.z = 0.01
+        marker.scale.x = 0.1 
+        marker.scale.y = 0.1 
+        marker.scale.z = 0.1
 
         marker.action = marker.ADD
         marker.pose.position.x = position_x
@@ -129,7 +136,7 @@ class Arrows(Node):
         Initialize components of net-force vector
         """
         
-        marker.header.frame_id = 'map'
+        marker.header.frame_id = 'base_link'
         marker.header.stamp = self.get_clock().now().to_msg()
         marker.type = marker.ARROW
         marker.id = self.id
@@ -146,6 +153,29 @@ class Arrows(Node):
         
         # Fixed green color
         self.set_color(marker, 0.0, 1.0, 0.0)
+    
+    
+    def initialize_stiff_marker(self, marker):
+
+            
+        marker.header.frame_id = 'base_link'
+        marker.header.stamp = self.get_clock().now().to_msg()
+        marker.type = marker.ARROW
+        marker.id = self.id
+        self.id += 1
+
+        marker.pose.position.x = 0.0
+        marker.pose.position.y = 0.0
+        marker.pose.position.z = self.THRUSTERS_Z_POSITION
+
+        marker.scale.x = 1.0
+        marker.scale.y = self.ARROW_Y_SCALE
+        marker.scale.z = self.ARROW_Z_SCALE
+        
+        # Fixed blue color
+        self.set_color(marker, 0.0, 0.0, 1.0)
+
+
 
     def calculate_net_force_scale_x(self):
         """

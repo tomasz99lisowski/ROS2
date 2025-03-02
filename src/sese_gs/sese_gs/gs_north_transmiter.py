@@ -3,7 +3,7 @@ import numpy as np
 from rclpy.node import Node
 from rclpy.qos import QoSProfile, ReliabilityPolicy
 from std_msgs.msg import Float32
-from visualization_msgs.msg import Marker
+from visualization_msgs.msg import MarkerArray, Marker
 from std_msgs.msg import ColorRGBA
 from geometry_msgs.msg import Vector3
 from px4_msgs.msg import VehicleLocalPosition
@@ -14,25 +14,28 @@ class FloatTransmitter(Node):
         super().__init__('gs_transmiter')
         qos_profile = QoSProfile(depth=10)
         qos_profile.reliability = ReliabilityPolicy.BEST_EFFORT
-        self.sub = self.create_subscription(VehicleLocalPosition, '/fmu/out/vehicle_local_position', self.listener_callback, qos_profile)
+        #self.sub = self.create_subscription(VehicleLocalPosition, '/fmu/out/vehicle_local_position', self.listener_callback, qos_profile)
 
-        self.nort_pub = self.create_publisher(Marker, 'compas_data', 10)
+        self.sub = self.create_subscription(Float32, 'north_data', self.listener_callback, qos_profile)
+
+        self.nort_pub = self.create_publisher(MarkerArray, 'compas_data', 10)
         self.north_timer = self.create_timer(0.1, self.north_pub_callback)
-
-        self.curr_pub = self.create_publisher(Marker, 'current_data', 10)
-        self.curr_timer = self.create_timer(0.1, self.curr_pub_callback)
 
         self.current_euler = 0
         self.current_euler_rad = 0
         
 
     def listener_callback(self, msg):
-        self.current_euler = msg.heading
+        #self.current_euler = msg.heading
+        self.current_euler = msg.data
 
     def quaternion_from_euler(self, roll, pitch, yaw):
         """
         Convert Euler angles to quaternion.
         """
+
+        roll = roll * -1 #Correction for East and West
+
         cy = np.cos(yaw * 0.5)
         sy = np.sin(yaw * 0.5)
         cp = np.cos(pitch * 0.5)
@@ -93,21 +96,19 @@ class FloatTransmitter(Node):
         q_0 = self.quaternion_from_euler(0, 0, 0)
         north_scale = self.create_scale(3.0, 0.2, 0.01)
         north_color = self.create_color(0.0, 1.0, 0.0, 1.0)
-        
         north = self.create_marker('north', q_0, north_scale, north_color)
-     
-        self.nort_pub.publish(north)
-
-    def curr_pub_callback(self):
 
         q_current = self.count_current(self.current_euler)
         self.current_euler_rad += 0.1
         current_scale = self.create_scale(2.0, 0.1, 0.01)
         current_color = self.create_color(1.0, 0.0, 0.0, 1.0)
+        actual = self.create_marker('actual', q_current, current_scale, current_color)     
 
-        actual = self.create_marker('actual', q_current, current_scale, current_color)
+        self.marker_array = MarkerArray()
+        self.marker_array.markers.append(north)
+        self.marker_array.markers.append(actual)
+        self.nort_pub.publish(self.marker_array)
         
-        self.curr_pub.publish(actual)
 
 def main(args=None):
     rclpy.init(args=args)

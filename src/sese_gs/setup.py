@@ -21,7 +21,10 @@ setup(
     entry_points={
         'console_scripts': [
             'transmit_north = sese_gs.gs_north_transmiter:main',
-            'transmit_force = sese_gs.gs_net_force:main'
+            'transmit_force = sese_gs.gs_net_force:main',
+            'transmit_battery = sese_gs.gs_battery_transmiter:main',
+            'public_battery = sese_gs.gs_batt_trial:main',
+            'public_north = sese_gs.gs_north_trial:main',
         ],
     },
 )
