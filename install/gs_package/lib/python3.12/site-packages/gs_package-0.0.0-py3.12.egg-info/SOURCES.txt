@@ -10,14 +10,14 @@ setup.py
 ../../build/gs_package/gs_package.egg-info/top_level.txt
 ../../build/gs_package/gs_package.egg-info/zip-safe
 gs_package/__init__.py
+gs_package/battery_transmiter.py
 gs_package/gs_batt_pub.py
 gs_package/gs_batt_sub.py
 gs_package/gs_north.py
 gs_package/gs_point.py
 gs_package/gs_publisher.py
-gs_package/gs_robot_state.py
 gs_package/gs_subscriber.py
-gs_package/gs_transmiter.py
+gs_package/north_transmiter.py
 launch/vis.launch.py
 launch/vol.launch.py
 resource/gs_package

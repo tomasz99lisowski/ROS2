@@ -1,0 +1,521 @@
+[0.416s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.416s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x793d0dd31220>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x793d0d1e8c20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x793d0d1e8c20>>, mixin_verb=('build',))
+[0.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.581s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tomasz/Desktop/sese_ws'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/gs_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/gs_cpp) by extension 'ignore'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/gs_cpp) by extension 'ignore_ament_install'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/gs_cpp) by extensions ['colcon_pkg']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/gs_cpp) by extension 'colcon_pkg'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/gs_cpp) by extensions ['colcon_meta']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/gs_cpp) by extension 'colcon_meta'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/gs_cpp) by extensions ['ros']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/gs_cpp) by extension 'ros'
+[0.656s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gs_cpp' with type 'ros.ament_cmake' and name 'gs_cpp'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/gs_package) by extensions ['ignore', 'ignore_ament_install']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/gs_package) by extension 'ignore'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/gs_package) by extension 'ignore_ament_install'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/gs_package) by extensions ['colcon_pkg']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/gs_package) by extension 'colcon_pkg'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/gs_package) by extensions ['colcon_meta']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/gs_package) by extension 'colcon_meta'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/gs_package) by extensions ['ros']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/gs_package) by extension 'ros'
+[0.660s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gs_package' with type 'ros.ament_python' and name 'gs_package'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ignore', 'ignore_ament_install']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore_ament_install'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_pkg']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_pkg'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_meta']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_meta'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ros']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ros'
+[0.663s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_package' with type 'ros.ament_python' and name 'my_package'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[0.666s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore_ament_install'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_pkg']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_pkg'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_meta']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_meta'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ros']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ros'
+[0.669s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_srvcli' with type 'ros.ament_python' and name 'py_srvcli'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extensions ['ignore', 'ignore_ament_install']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extension 'ignore'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extension 'ignore_ament_install'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extensions ['colcon_pkg']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extension 'colcon_pkg'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extensions ['colcon_meta']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extension 'colcon_meta'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extensions ['ros']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_parameters) by extension 'ros'
+[0.672s] DEBUG:colcon.colcon_core.package_identification:Package 'src/python_parameters' with type 'ros.ament_python' and name 'python_parameters'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/sese_gs) by extensions ['ignore', 'ignore_ament_install']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/sese_gs) by extension 'ignore'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/sese_gs) by extension 'ignore_ament_install'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/sese_gs) by extensions ['colcon_pkg']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/sese_gs) by extension 'colcon_pkg'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/sese_gs) by extensions ['colcon_meta']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/sese_gs) by extension 'colcon_meta'
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/sese_gs) by extensions ['ros']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/sese_gs) by extension 'ros'
+[0.675s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sese_gs' with type 'ros.ament_python' and name 'sese_gs'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore_ament_install'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_pkg']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_pkg'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_meta']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_meta'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ros']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ros'
+[0.678s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tutorial_interfaces' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[0.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.679s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.750s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 30 installed packages in /home/tomasz/Desktop/sese_ws/install
+[0.755s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 380 installed packages in /opt/ros/jazzy
+[0.761s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.913s] Level 5:colcon.colcon_core.verb:set package 'gs_cpp' build argument 'cmake_args' from command line to 'None'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'gs_cpp' build argument 'cmake_target' from command line to 'None'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'gs_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'gs_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'gs_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'gs_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'gs_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'gs_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'gs_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.914s] DEBUG:colcon.colcon_core.verb:Building package 'gs_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomasz/Desktop/sese_ws/build/gs_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomasz/Desktop/sese_ws/install/gs_cpp', 'merge_install': False, 'path': '/home/tomasz/Desktop/sese_ws/src/gs_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'gs_package' build argument 'cmake_args' from command line to 'None'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'gs_package' build argument 'cmake_target' from command line to 'None'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'gs_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'gs_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'gs_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'gs_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'gs_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'gs_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'gs_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.915s] DEBUG:colcon.colcon_core.verb:Building package 'gs_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomasz/Desktop/sese_ws/build/gs_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomasz/Desktop/sese_ws/install/gs_package', 'merge_install': False, 'path': '/home/tomasz/Desktop/sese_ws/src/gs_package', 'symlink_install': False, 'test_result_base': None}
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.917s] DEBUG:colcon.colcon_core.verb:Building package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomasz/Desktop/sese_ws/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomasz/Desktop/sese_ws/install/my_package', 'merge_install': False, 'path': '/home/tomasz/Desktop/sese_ws/src/my_package', 'symlink_install': False, 'test_result_base': None}
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.918s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.918s] DEBUG:colcon.colcon_core.verb:Building package 'py_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomasz/Desktop/sese_ws/build/py_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomasz/Desktop/sese_ws/install/py_pubsub', 'merge_install': False, 'path': '/home/tomasz/Desktop/sese_ws/src/py_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.918s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_args' from command line to 'None'
+[0.918s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_target' from command line to 'None'
+[0.918s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.918s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_clean_cache' from command line to 'False'
+[0.918s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_clean_first' from command line to 'False'
+[0.918s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'cmake_force_configure' from command line to 'False'
+[0.918s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'ament_cmake_args' from command line to 'None'
+[0.918s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'catkin_cmake_args' from command line to 'None'
+[0.919s] Level 5:colcon.colcon_core.verb:set package 'python_parameters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.919s] DEBUG:colcon.colcon_core.verb:Building package 'python_parameters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomasz/Desktop/sese_ws/build/python_parameters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomasz/Desktop/sese_ws/install/python_parameters', 'merge_install': False, 'path': '/home/tomasz/Desktop/sese_ws/src/python_parameters', 'symlink_install': False, 'test_result_base': None}
+[0.919s] Level 5:colcon.colcon_core.verb:set package 'sese_gs' build argument 'cmake_args' from command line to 'None'
+[0.919s] Level 5:colcon.colcon_core.verb:set package 'sese_gs' build argument 'cmake_target' from command line to 'None'
+[0.919s] Level 5:colcon.colcon_core.verb:set package 'sese_gs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.919s] Level 5:colcon.colcon_core.verb:set package 'sese_gs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.919s] Level 5:colcon.colcon_core.verb:set package 'sese_gs' build argument 'cmake_clean_first' from command line to 'False'
+[0.919s] Level 5:colcon.colcon_core.verb:set package 'sese_gs' build argument 'cmake_force_configure' from command line to 'False'
+[0.919s] Level 5:colcon.colcon_core.verb:set package 'sese_gs' build argument 'ament_cmake_args' from command line to 'None'
+[0.919s] Level 5:colcon.colcon_core.verb:set package 'sese_gs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.920s] Level 5:colcon.colcon_core.verb:set package 'sese_gs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.920s] DEBUG:colcon.colcon_core.verb:Building package 'sese_gs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomasz/Desktop/sese_ws/build/sese_gs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomasz/Desktop/sese_ws/install/sese_gs', 'merge_install': False, 'path': '/home/tomasz/Desktop/sese_ws/src/sese_gs', 'symlink_install': False, 'test_result_base': None}
+[0.920s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.920s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.920s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.920s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.920s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.920s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.921s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.921s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.921s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.921s] DEBUG:colcon.colcon_core.verb:Building package 'tutorial_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomasz/Desktop/sese_ws/build/tutorial_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces', 'merge_install': False, 'path': '/home/tomasz/Desktop/sese_ws/src/tutorial_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.921s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_args' from command line to 'None'
+[0.921s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target' from command line to 'None'
+[0.922s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.922s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.922s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[0.922s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[0.922s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[0.922s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.922s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.922s] DEBUG:colcon.colcon_core.verb:Building package 'py_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tomasz/Desktop/sese_ws/build/py_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tomasz/Desktop/sese_ws/install/py_srvcli', 'merge_install': False, 'path': '/home/tomasz/Desktop/sese_ws/src/py_srvcli', 'symlink_install': False, 'test_result_base': None}
+[0.922s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.924s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.925s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tomasz/Desktop/sese_ws/src/tutorial_interfaces' with build type 'ament_cmake'
+[0.925s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tomasz/Desktop/sese_ws/src/tutorial_interfaces'
+[0.936s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.936s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.936s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.952s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tomasz/Desktop/sese_ws/src/gs_cpp' with build type 'ament_cmake'
+[0.952s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tomasz/Desktop/sese_ws/src/gs_cpp'
+[0.952s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.952s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.968s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tomasz/Desktop/sese_ws/src/gs_package' with build type 'ament_python'
+[0.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_package', 'ament_prefix_path')
+[0.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/gs_package/share/gs_package/hook/ament_prefix_path.ps1'
+[0.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomasz/Desktop/sese_ws/install/gs_package/share/gs_package/hook/ament_prefix_path.dsv'
+[0.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/gs_package/share/gs_package/hook/ament_prefix_path.sh'
+[0.975s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.975s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.990s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tomasz/Desktop/sese_ws/src/my_package' with build type 'ament_python'
+[0.991s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'ament_prefix_path')
+[0.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/my_package/share/my_package/hook/ament_prefix_path.ps1'
+[0.993s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomasz/Desktop/sese_ws/install/my_package/share/my_package/hook/ament_prefix_path.dsv'
+[0.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/my_package/share/my_package/hook/ament_prefix_path.sh'
+[0.996s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.996s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.010s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tomasz/Desktop/sese_ws/src/py_pubsub' with build type 'ament_python'
+[1.011s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'ament_prefix_path')
+[1.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.ps1'
+[1.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomasz/Desktop/sese_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.dsv'
+[1.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.sh'
+[1.015s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.015s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.031s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tomasz/Desktop/sese_ws/src/python_parameters' with build type 'ament_python'
+[1.031s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_parameters', 'ament_prefix_path')
+[1.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/python_parameters/share/python_parameters/hook/ament_prefix_path.ps1'
+[1.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomasz/Desktop/sese_ws/install/python_parameters/share/python_parameters/hook/ament_prefix_path.dsv'
+[1.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/python_parameters/share/python_parameters/hook/ament_prefix_path.sh'
+[1.035s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.035s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.051s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tomasz/Desktop/sese_ws/src/sese_gs' with build type 'ament_python'
+[1.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('sese_gs', 'ament_prefix_path')
+[1.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/sese_gs/share/sese_gs/hook/ament_prefix_path.ps1'
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomasz/Desktop/sese_ws/install/sese_gs/share/sese_gs/hook/ament_prefix_path.dsv'
+[1.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/sese_gs/share/sese_gs/hook/ament_prefix_path.sh'
+[1.056s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.057s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomasz/Desktop/sese_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/gs_package:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomasz/Desktop/sese_ws/build/tutorial_interfaces -- -j16 -l16
+[1.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomasz/Desktop/sese_ws/build/gs_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/gs_package:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomasz/Desktop/sese_ws/build/gs_cpp -- -j16 -l16
+[1.760s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tomasz/Desktop/sese_ws/src/gs_package'
+[1.760s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.760s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.411s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tomasz/Desktop/sese_ws/src/my_package'
+[2.411s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.411s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.054s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tomasz/Desktop/sese_ws/src/py_pubsub'
+[3.055s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.055s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.688s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tomasz/Desktop/sese_ws/src/python_parameters'
+[3.688s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.688s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tomasz/Desktop/sese_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/gs_package:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomasz/Desktop/sese_ws/build/tutorial_interfaces -- -j16 -l16
+[3.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tomasz/Desktop/sese_ws/build/gs_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/gs_package:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tomasz/Desktop/sese_ws/build/gs_cpp -- -j16 -l16
+[3.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomasz/Desktop/sese_ws/build/gs_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/gs_package:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomasz/Desktop/sese_ws/build/gs_cpp
+[4.401s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tomasz/Desktop/sese_ws/src/sese_gs'
+[4.401s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.401s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.439s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gs_cpp)
+[4.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tomasz/Desktop/sese_ws/build/gs_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/gs_package:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomasz/Desktop/sese_ws/build/gs_cpp
+[4.453s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/gs_cpp' for CMake module files
+[4.454s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/gs_cpp' for CMake config files
+[4.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_cpp', 'cmake_prefix_path')
+[4.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/hook/cmake_prefix_path.ps1'
+[4.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/hook/cmake_prefix_path.dsv'
+[4.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/hook/cmake_prefix_path.sh'
+[4.459s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/gs_cpp/lib'
+[4.459s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/gs_cpp/bin'
+[4.459s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/gs_cpp/lib/pkgconfig/gs_cpp.pc'
+[4.460s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/gs_cpp/lib/python3.12/site-packages'
+[4.460s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/gs_cpp/bin'
+[4.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/package.ps1'
+[4.462s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/package.dsv'
+[4.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/package.sh'
+[4.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/package.bash'
+[4.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/package.zsh'
+[4.470s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tomasz/Desktop/sese_ws/install/gs_cpp/share/colcon-core/packages/gs_cpp)
+[4.471s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gs_cpp)
+[4.472s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/gs_cpp' for CMake module files
+[4.473s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/gs_cpp' for CMake config files
+[4.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_cpp', 'cmake_prefix_path')
+[4.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/hook/cmake_prefix_path.ps1'
+[4.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/hook/cmake_prefix_path.dsv'
+[4.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/hook/cmake_prefix_path.sh'
+[4.477s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/gs_cpp/lib'
+[4.477s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/gs_cpp/bin'
+[4.477s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/gs_cpp/lib/pkgconfig/gs_cpp.pc'
+[4.478s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/gs_cpp/lib/python3.12/site-packages'
+[4.478s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/gs_cpp/bin'
+[4.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/package.ps1'
+[4.480s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/package.dsv'
+[4.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/package.sh'
+[4.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/package.bash'
+[4.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/gs_cpp/share/gs_cpp/package.zsh'
+[4.483s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tomasz/Desktop/sese_ws/install/gs_cpp/share/colcon-core/packages/gs_cpp)
+[4.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomasz/Desktop/sese_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/gs_package:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomasz/Desktop/sese_ws/build/tutorial_interfaces
+[4.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[4.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tomasz/Desktop/sese_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tomasz/Desktop/sese_ws/install/py_srvcli:/home/tomasz/Desktop/sese_ws/install/python_parameters:/home/tomasz/Desktop/sese_ws/install/py_pubsub:/home/tomasz/Desktop/sese_ws/install/my_package:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/gs_package:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tomasz/Desktop/sese_ws/build/tutorial_interfaces
+[4.695s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces' for CMake module files
+[4.697s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces' for CMake config files
+[4.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[4.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[4.699s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[4.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[4.701s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib'
+[4.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[4.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[4.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[4.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[4.704s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/bin'
+[4.705s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[4.705s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages'
+[4.705s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'pythonpath')
+[4.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.ps1'
+[4.706s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.dsv'
+[4.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.sh'
+[4.708s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/bin'
+[4.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[4.710s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[4.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[4.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[4.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[4.714s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[5.068s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[5.068s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces' for CMake module files
+[5.070s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces' for CMake config files
+[5.070s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[5.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[5.072s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[5.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[5.074s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib'
+[5.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[5.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[5.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[5.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[5.078s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/bin'
+[5.078s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[5.078s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages'
+[5.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'pythonpath')
+[5.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.ps1'
+[5.080s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.dsv'
+[5.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.sh'
+[5.082s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/bin'
+[5.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[5.084s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[5.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[5.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[5.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[5.088s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[5.089s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tomasz/Desktop/sese_ws/src/py_srvcli' with build type 'ament_python'
+[5.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'ament_prefix_path')
+[5.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.ps1'
+[5.092s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomasz/Desktop/sese_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.dsv'
+[5.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.sh'
+[5.094s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.094s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.752s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tomasz/Desktop/sese_ws/src/py_srvcli'
+[5.752s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.753s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomasz/Desktop/sese_ws/src/gs_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/gs_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gs_package build --build-base /home/tomasz/Desktop/sese_ws/build/gs_package/build install --record /home/tomasz/Desktop/sese_ws/build/gs_package/install.log --single-version-externally-managed install_data
+[6.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomasz/Desktop/sese_ws/src/py_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/tomasz/Desktop/sese_ws/build/py_pubsub/build install --record /home/tomasz/Desktop/sese_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[6.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomasz/Desktop/sese_ws/src/my_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/tomasz/Desktop/sese_ws/build/my_package/build install --record /home/tomasz/Desktop/sese_ws/build/my_package/install.log --single-version-externally-managed install_data
+[6.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomasz/Desktop/sese_ws/src/sese_gs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/sese_gs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sese_gs build --build-base /home/tomasz/Desktop/sese_ws/build/sese_gs/build install --record /home/tomasz/Desktop/sese_ws/build/sese_gs/install.log --single-version-externally-managed install_data
+[6.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomasz/Desktop/sese_ws/src/python_parameters': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/tomasz/Desktop/sese_ws/build/python_parameters/build install --record /home/tomasz/Desktop/sese_ws/build/python_parameters/install.log --single-version-externally-managed install_data
+[7.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tomasz/Desktop/sese_ws/src/py_srvcli': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/py_srvcli/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/install/py_srvcli/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/install/py_pubsub/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/install/my_package/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_executors:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/tomasz/Desktop/sese_ws/build/py_srvcli/build install --record /home/tomasz/Desktop/sese_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
+[8.065s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/py_pubsub' for CMake module files
+[8.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tomasz/Desktop/sese_ws/src/py_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/tomasz/Desktop/sese_ws/build/py_pubsub/build install --record /home/tomasz/Desktop/sese_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[8.067s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/py_pubsub' for CMake config files
+[8.069s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/py_pubsub/lib'
+[8.069s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/py_pubsub/bin'
+[8.069s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/py_pubsub/lib/pkgconfig/py_pubsub.pc'
+[8.069s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/py_pubsub/lib/python3.12/site-packages'
+[8.070s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath')
+[8.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.ps1'
+[8.071s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomasz/Desktop/sese_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.dsv'
+[8.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.sh'
+[8.073s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/py_pubsub/bin'
+[8.073s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pubsub)
+[8.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/py_pubsub/share/py_pubsub/package.ps1'
+[8.075s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tomasz/Desktop/sese_ws/install/py_pubsub/share/py_pubsub/package.dsv'
+[8.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/py_pubsub/share/py_pubsub/package.sh'
+[8.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/py_pubsub/share/py_pubsub/package.bash'
+[8.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/py_pubsub/share/py_pubsub/package.zsh'
+[8.078s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tomasz/Desktop/sese_ws/install/py_pubsub/share/colcon-core/packages/py_pubsub)
+[8.084s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/gs_package' for CMake module files
+[8.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tomasz/Desktop/sese_ws/src/gs_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/gs_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gs_package build --build-base /home/tomasz/Desktop/sese_ws/build/gs_package/build install --record /home/tomasz/Desktop/sese_ws/build/gs_package/install.log --single-version-externally-managed install_data
+[8.088s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/gs_package' for CMake config files
+[8.090s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/gs_package/lib'
+[8.090s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/gs_package/bin'
+[8.090s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/gs_package/lib/pkgconfig/gs_package.pc'
+[8.091s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages'
+[8.091s] Level 1:colcon.colcon_core.shell:create_environment_hook('gs_package', 'pythonpath')
+[8.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/gs_package/share/gs_package/hook/pythonpath.ps1'
+[8.092s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomasz/Desktop/sese_ws/install/gs_package/share/gs_package/hook/pythonpath.dsv'
+[8.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/gs_package/share/gs_package/hook/pythonpath.sh'
+[8.095s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/gs_package/bin'
+[8.095s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gs_package)
+[8.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/gs_package/share/gs_package/package.ps1'
+[8.096s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tomasz/Desktop/sese_ws/install/gs_package/share/gs_package/package.dsv'
+[8.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/gs_package/share/gs_package/package.sh'
+[8.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/gs_package/share/gs_package/package.bash'
+[8.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/gs_package/share/gs_package/package.zsh'
+[8.100s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tomasz/Desktop/sese_ws/install/gs_package/share/colcon-core/packages/gs_package)
+[8.103s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/sese_gs' for CMake module files
+[8.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tomasz/Desktop/sese_ws/src/sese_gs' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/sese_gs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sese_gs build --build-base /home/tomasz/Desktop/sese_ws/build/sese_gs/build install --record /home/tomasz/Desktop/sese_ws/build/sese_gs/install.log --single-version-externally-managed install_data
+[8.105s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/sese_gs' for CMake config files
+[8.106s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/sese_gs/lib'
+[8.106s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/sese_gs/bin'
+[8.106s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/sese_gs/lib/pkgconfig/sese_gs.pc'
+[8.107s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages'
+[8.107s] Level 1:colcon.colcon_core.shell:create_environment_hook('sese_gs', 'pythonpath')
+[8.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/sese_gs/share/sese_gs/hook/pythonpath.ps1'
+[8.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomasz/Desktop/sese_ws/install/sese_gs/share/sese_gs/hook/pythonpath.dsv'
+[8.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/sese_gs/share/sese_gs/hook/pythonpath.sh'
+[8.110s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/sese_gs/bin'
+[8.110s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sese_gs)
+[8.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/sese_gs/share/sese_gs/package.ps1'
+[8.112s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tomasz/Desktop/sese_ws/install/sese_gs/share/sese_gs/package.dsv'
+[8.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/sese_gs/share/sese_gs/package.sh'
+[8.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/sese_gs/share/sese_gs/package.bash'
+[8.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/sese_gs/share/sese_gs/package.zsh'
+[8.115s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tomasz/Desktop/sese_ws/install/sese_gs/share/colcon-core/packages/sese_gs)
+[8.119s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/my_package' for CMake module files
+[8.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tomasz/Desktop/sese_ws/src/my_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/tomasz/Desktop/sese_ws/build/my_package/build install --record /home/tomasz/Desktop/sese_ws/build/my_package/install.log --single-version-externally-managed install_data
+[8.121s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/my_package' for CMake config files
+[8.123s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/my_package/lib'
+[8.123s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/my_package/bin'
+[8.124s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/my_package/lib/pkgconfig/my_package.pc'
+[8.124s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/my_package/lib/python3.12/site-packages'
+[8.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'pythonpath')
+[8.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/my_package/share/my_package/hook/pythonpath.ps1'
+[8.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomasz/Desktop/sese_ws/install/my_package/share/my_package/hook/pythonpath.dsv'
+[8.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/my_package/share/my_package/hook/pythonpath.sh'
+[8.129s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/my_package/bin'
+[8.129s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[8.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/my_package/share/my_package/package.ps1'
+[8.130s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tomasz/Desktop/sese_ws/install/my_package/share/my_package/package.dsv'
+[8.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/my_package/share/my_package/package.sh'
+[8.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/my_package/share/my_package/package.bash'
+[8.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/my_package/share/my_package/package.zsh'
+[8.134s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tomasz/Desktop/sese_ws/install/my_package/share/colcon-core/packages/my_package)
+[8.138s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/python_parameters' for CMake module files
+[8.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tomasz/Desktop/sese_ws/src/python_parameters' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/tomasz/Desktop/sese_ws/build/python_parameters/build install --record /home/tomasz/Desktop/sese_ws/build/python_parameters/install.log --single-version-externally-managed install_data
+[8.140s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/python_parameters' for CMake config files
+[8.142s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/python_parameters/lib'
+[8.142s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/python_parameters/bin'
+[8.142s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/python_parameters/lib/pkgconfig/python_parameters.pc'
+[8.143s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python3.12/site-packages'
+[8.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_parameters', 'pythonpath')
+[8.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/python_parameters/share/python_parameters/hook/pythonpath.ps1'
+[8.145s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomasz/Desktop/sese_ws/install/python_parameters/share/python_parameters/hook/pythonpath.dsv'
+[8.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/python_parameters/share/python_parameters/hook/pythonpath.sh'
+[8.147s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/python_parameters/bin'
+[8.147s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(python_parameters)
+[8.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/python_parameters/share/python_parameters/package.ps1'
+[8.149s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tomasz/Desktop/sese_ws/install/python_parameters/share/python_parameters/package.dsv'
+[8.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/python_parameters/share/python_parameters/package.sh'
+[8.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/python_parameters/share/python_parameters/package.bash'
+[8.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/python_parameters/share/python_parameters/package.zsh'
+[8.153s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tomasz/Desktop/sese_ws/install/python_parameters/share/colcon-core/packages/python_parameters)
+[9.022s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/py_srvcli' for CMake module files
+[9.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tomasz/Desktop/sese_ws/src/py_srvcli' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/py_srvcli/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/install/py_srvcli/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/install/python_parameters/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/install/py_pubsub/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/install/my_package/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/launch_testing_examples:/home/tomasz/Desktop/sese_ws/install/launch_testing_examples/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/install/gs_package/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_pointcloud_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_subscriber:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_service:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_service/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_publisher:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_action_server:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_minimal_action_client:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_minimal_action_client/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_guard_conditions:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/build/examples_rclpy_executors:/home/tomasz/Desktop/sese_ws/install/examples_rclpy_executors/lib/python3.12/site-packages:/home/tomasz/Desktop/sese_ws/install/custom_action_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/tomasz/Desktop/sese_ws/build/py_srvcli/build install --record /home/tomasz/Desktop/sese_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
+[9.023s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/py_srvcli' for CMake config files
+[9.024s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/py_srvcli/lib'
+[9.024s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/py_srvcli/bin'
+[9.025s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/py_srvcli/lib/pkgconfig/py_srvcli.pc'
+[9.025s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/py_srvcli/lib/python3.12/site-packages'
+[9.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'pythonpath')
+[9.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.ps1'
+[9.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tomasz/Desktop/sese_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.dsv'
+[9.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tomasz/Desktop/sese_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.sh'
+[9.028s] Level 1:colcon.colcon_core.environment:checking '/home/tomasz/Desktop/sese_ws/install/py_srvcli/bin'
+[9.028s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_srvcli)
+[9.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/py_srvcli/share/py_srvcli/package.ps1'
+[9.029s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tomasz/Desktop/sese_ws/install/py_srvcli/share/py_srvcli/package.dsv'
+[9.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/py_srvcli/share/py_srvcli/package.sh'
+[9.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/py_srvcli/share/py_srvcli/package.bash'
+[9.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/tomasz/Desktop/sese_ws/install/py_srvcli/share/py_srvcli/package.zsh'
+[9.031s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tomasz/Desktop/sese_ws/install/py_srvcli/share/colcon-core/packages/py_srvcli)
+[9.032s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.032s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.032s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.032s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.048s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.048s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.048s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.077s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.078s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tomasz/Desktop/sese_ws/install/local_setup.ps1'
+[9.079s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tomasz/Desktop/sese_ws/install/_local_setup_util_ps1.py'
+[9.081s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tomasz/Desktop/sese_ws/install/setup.ps1'
+[9.085s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tomasz/Desktop/sese_ws/install/local_setup.sh'
+[9.086s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tomasz/Desktop/sese_ws/install/_local_setup_util_sh.py'
+[9.086s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tomasz/Desktop/sese_ws/install/setup.sh'
+[9.090s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tomasz/Desktop/sese_ws/install/local_setup.bash'
+[9.091s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tomasz/Desktop/sese_ws/install/setup.bash'
+[9.095s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tomasz/Desktop/sese_ws/install/local_setup.zsh'
+[9.096s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tomasz/Desktop/sese_ws/install/setup.zsh'

@@ -1,0 +1,52 @@
+running egg_info
+creating ../../build/sese_gs/sese_gs.egg-info
+writing ../../build/sese_gs/sese_gs.egg-info/PKG-INFO
+writing dependency_links to ../../build/sese_gs/sese_gs.egg-info/dependency_links.txt
+writing entry points to ../../build/sese_gs/sese_gs.egg-info/entry_points.txt
+writing requirements to ../../build/sese_gs/sese_gs.egg-info/requires.txt
+writing top-level names to ../../build/sese_gs/sese_gs.egg-info/top_level.txt
+writing manifest file '../../build/sese_gs/sese_gs.egg-info/SOURCES.txt'
+reading manifest file '../../build/sese_gs/sese_gs.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/sese_gs/sese_gs.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tomasz/Desktop/sese_ws/build/sese_gs/build
+creating /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib
+creating /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs
+copying sese_gs/gs_batt_trial.py -> /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs
+copying sese_gs/gs_north_trial.py -> /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs
+copying sese_gs/gs_battery_transmiter.py -> /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs
+copying sese_gs/__init__.py -> /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs
+copying sese_gs/gs_north_transmiter.py -> /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs
+copying sese_gs/gs_net_force.py -> /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs
+running install
+running install_lib
+creating /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs
+copying /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs/gs_batt_trial.py -> /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs
+copying /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs/gs_north_trial.py -> /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs
+copying /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs/gs_battery_transmiter.py -> /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs
+copying /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs/__init__.py -> /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs
+copying /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs/gs_north_transmiter.py -> /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs
+copying /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs/gs_net_force.py -> /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs
+byte-compiling /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs/gs_batt_trial.py to gs_batt_trial.cpython-312.pyc
+byte-compiling /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs/gs_north_trial.py to gs_north_trial.cpython-312.pyc
+byte-compiling /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs/gs_battery_transmiter.py to gs_battery_transmiter.cpython-312.pyc
+byte-compiling /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs/gs_north_transmiter.py to gs_north_transmiter.cpython-312.pyc
+byte-compiling /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs/gs_net_force.py to gs_net_force.cpython-312.pyc
+running install_data
+creating /home/tomasz/Desktop/sese_ws/install/sese_gs/share/ament_index
+creating /home/tomasz/Desktop/sese_ws/install/sese_gs/share/ament_index/resource_index
+creating /home/tomasz/Desktop/sese_ws/install/sese_gs/share/ament_index/resource_index/packages
+copying resource/sese_gs -> /home/tomasz/Desktop/sese_ws/install/sese_gs/share/ament_index/resource_index/packages
+copying package.xml -> /home/tomasz/Desktop/sese_ws/install/sese_gs/share/sese_gs
+running install_egg_info
+Copying ../../build/sese_gs/sese_gs.egg-info to /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs-0.0.0-py3.12.egg-info
+running install_scripts
+Installing public_battery script to /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/sese_gs
+Installing public_north script to /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/sese_gs
+Installing transmit_battery script to /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/sese_gs
+Installing transmit_force script to /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/sese_gs
+Installing transmit_north script to /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/sese_gs
+writing list of installed files to '/home/tomasz/Desktop/sese_ws/build/sese_gs/install.log'

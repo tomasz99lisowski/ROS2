@@ -1,0 +1,54 @@
+[5.365s] Invoking command in '/home/tomasz/Desktop/sese_ws/src/sese_gs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/sese_gs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sese_gs build --build-base /home/tomasz/Desktop/sese_ws/build/sese_gs/build install --record /home/tomasz/Desktop/sese_ws/build/sese_gs/install.log --single-version-externally-managed install_data
+[6.178s] running egg_info
+[6.179s] creating ../../build/sese_gs/sese_gs.egg-info
+[6.240s] writing ../../build/sese_gs/sese_gs.egg-info/PKG-INFO
+[6.241s] writing dependency_links to ../../build/sese_gs/sese_gs.egg-info/dependency_links.txt
+[6.241s] writing entry points to ../../build/sese_gs/sese_gs.egg-info/entry_points.txt
+[6.241s] writing requirements to ../../build/sese_gs/sese_gs.egg-info/requires.txt
+[6.242s] writing top-level names to ../../build/sese_gs/sese_gs.egg-info/top_level.txt
+[6.242s] writing manifest file '../../build/sese_gs/sese_gs.egg-info/SOURCES.txt'
+[6.368s] reading manifest file '../../build/sese_gs/sese_gs.egg-info/SOURCES.txt'
+[6.368s] adding license file 'LICENSE'
+[6.369s] writing manifest file '../../build/sese_gs/sese_gs.egg-info/SOURCES.txt'
+[6.370s] running build
+[6.370s] running build_py
+[6.370s] creating /home/tomasz/Desktop/sese_ws/build/sese_gs/build
+[6.370s] creating /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib
+[6.371s] creating /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs
+[6.371s] copying sese_gs/gs_batt_trial.py -> /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs
+[6.371s] copying sese_gs/gs_north_trial.py -> /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs
+[6.372s] copying sese_gs/gs_battery_transmiter.py -> /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs
+[6.373s] copying sese_gs/__init__.py -> /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs
+[6.373s] copying sese_gs/gs_north_transmiter.py -> /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs
+[6.374s] copying sese_gs/gs_net_force.py -> /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs
+[6.375s] running install
+[6.390s] running install_lib
+[6.455s] creating /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs
+[6.455s] copying /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs/gs_batt_trial.py -> /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs
+[6.456s] copying /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs/gs_north_trial.py -> /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs
+[6.456s] copying /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs/gs_battery_transmiter.py -> /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs
+[6.457s] copying /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs/__init__.py -> /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs
+[6.457s] copying /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs/gs_north_transmiter.py -> /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs
+[6.458s] copying /home/tomasz/Desktop/sese_ws/build/sese_gs/build/lib/sese_gs/gs_net_force.py -> /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs
+[6.459s] byte-compiling /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs/gs_batt_trial.py to gs_batt_trial.cpython-312.pyc
+[6.462s] byte-compiling /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs/gs_north_trial.py to gs_north_trial.cpython-312.pyc
+[6.463s] byte-compiling /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs/gs_battery_transmiter.py to gs_battery_transmiter.cpython-312.pyc
+[6.466s] byte-compiling /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs/__init__.py to __init__.cpython-312.pyc
+[6.467s] byte-compiling /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs/gs_north_transmiter.py to gs_north_transmiter.cpython-312.pyc
+[6.469s] byte-compiling /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs/gs_net_force.py to gs_net_force.cpython-312.pyc
+[6.473s] running install_data
+[6.474s] creating /home/tomasz/Desktop/sese_ws/install/sese_gs/share/ament_index
+[6.474s] creating /home/tomasz/Desktop/sese_ws/install/sese_gs/share/ament_index/resource_index
+[6.475s] creating /home/tomasz/Desktop/sese_ws/install/sese_gs/share/ament_index/resource_index/packages
+[6.475s] copying resource/sese_gs -> /home/tomasz/Desktop/sese_ws/install/sese_gs/share/ament_index/resource_index/packages
+[6.475s] copying package.xml -> /home/tomasz/Desktop/sese_ws/install/sese_gs/share/sese_gs
+[6.476s] running install_egg_info
+[6.541s] Copying ../../build/sese_gs/sese_gs.egg-info to /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages/sese_gs-0.0.0-py3.12.egg-info
+[6.543s] running install_scripts
+[6.958s] Installing public_battery script to /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/sese_gs
+[6.958s] Installing public_north script to /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/sese_gs
+[6.959s] Installing transmit_battery script to /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/sese_gs
+[6.959s] Installing transmit_force script to /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/sese_gs
+[6.960s] Installing transmit_north script to /home/tomasz/Desktop/sese_ws/install/sese_gs/lib/sese_gs
+[6.960s] writing list of installed files to '/home/tomasz/Desktop/sese_ws/build/sese_gs/install.log'
+[7.052s] Invoked command in '/home/tomasz/Desktop/sese_ws/src/sese_gs' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tomasz/Desktop/sese_ws/build/sese_gs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tomasz/Desktop/sese_ws/install/sese_gs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sese_gs build --build-base /home/tomasz/Desktop/sese_ws/build/sese_gs/build install --record /home/tomasz/Desktop/sese_ws/build/sese_gs/install.log --single-version-externally-managed install_data

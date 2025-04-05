@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: sese-gs
+Version: 0.0.0
+Summary: Package for transmitting data from px4 to rviz2
+Maintainer: tomasz
+Maintainer-email: tomasz.lisowski99@gmail.com
+License: Apache-2.0
+License-File: LICENSE
